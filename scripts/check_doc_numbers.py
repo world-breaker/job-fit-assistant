@@ -102,12 +102,8 @@ def context_failures(readme: str) -> List[str]:
             for e, g in zip(expect, got):
                 if e != g:
                     bad.append(f"{label}: README 语境里写的是 {g}，结果文件是 {e}")
-    # 顺便：系统 micro F1 也做一次语境校验（表里那一行）
-    m = re.search(r"系统（LLM \+ 规则兜底）\s*\|\s*([0-9.]+)", readme)
-    if m:
-        want_f1 = f"{m1['system_llm_plus_fallback']['micro']['f1']:.4f}"
-        if m.group(1) != want_f1:
-            bad.append(f"系统 micro F1: README 写 {m.group(1)}，结果文件 {want_f1}")
+    # 顺便：系统 micro F1 的语境校验已由 CONTEXT_ASSERTIONS 里的同名词条覆盖
+    #   （早期版本在这里另写了一份只抓 P 列的检查，会把 P 当成 F1 报错 → 已删除）
     return bad
 
 
