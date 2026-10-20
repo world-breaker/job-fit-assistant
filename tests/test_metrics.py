@@ -118,12 +118,27 @@ def test_truth_table_covers_all_eval_skills(truth_table, jd_dir):
 
 
 def test_resumes_are_anonymized(resume_dir):
-    """入库简历不得含姓名/手机/邮箱/薪资。"""
-    forbidden = ["田梦龙", "19971982816", "996563851", "期望薪资", "22-25K", "18-22K", "25-28K", "25-35K"]
+    """入库简历不得含姓名/手机/邮箱/薪资。
+
+    ★ 敏感串**不在测试里硬编码**——测试文件本身要进版本库，
+    硬编码真实个人信息等于在仓库里留一份明文。这里改成**结构化检查**：
+    断言简历里没有「手机号形态」「邮箱形态」「薪资行」这些**模式**，
+    而不是比对具体字符串。
+    """
+    import re
+
+    phone = re.compile(r"(?<!\d)1[3-9]\d[\s-]?\d{4}[\s-]?\d{4}(?!\d)")
+    email = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
+    salary = re.compile(r"(期望薪资|薪资期望|期望待遇)\s*[:：]")
+
     for path in resume_dir.glob("*.md"):
         text = path.read_text(encoding="utf-8")
-        for token in forbidden:
-            assert token not in text, f"{path.name} 含敏感串 {token!r}"
+        assert not phone.search(text), f"{path.name} 含手机号形态"
+        assert not email.search(text), f"{path.name} 含邮箱形态"
+        assert not salary.search(text), f"{path.name} 含薪资行"
+        # 姓名行必须是占位符，不能是中文人名
+        first = text.splitlines()[0].strip()
+        assert first == "候选人", f"{path.name} 首行应为「候选人」，实际：{first!r}"
 
 
 def test_resumes_have_candidate_placeholder(resume_dir):

@@ -260,7 +260,7 @@ def run(
         # --- 匹配：系统 vs 4 份简历 ---
         jd_resume_results: List[Dict[str, Any]] = []
         for resume in resumes:
-            profile = parse_resume(resume["path"])
+            profile = parse_resume(resume["path"], source_path_label=resume["name"])
             from jobfit.matching import match_requirements
 
             matches = match_requirements(requirements, profile)

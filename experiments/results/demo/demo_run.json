@@ -1,0 +1,3552 @@
+{
+  "jd_id": "2008789833664847872",
+  "jd_title": "光子 AI-AI应用开发工程师",
+  "jd_source": {
+    "site": "腾讯招聘官网",
+    "url": "http://careers.tencent.com/jobdesc.html?postId=2008789833664847872",
+    "fetched_at": "2026-10-21",
+    "source_type": "public_real"
+  },
+  "generated_at": "2026-10-21 03:29:19",
+  "elapsed_seconds": 63.66,
+  "llm_backend": "DeepSeekLlm",
+  "llm_usage": {
+    "backend": "deepseek",
+    "calls": 4,
+    "prompt_tokens": 3872,
+    "completion_tokens": 2803,
+    "cost_usd": 0.002263,
+    "price_known": true,
+    "errors": []
+  },
+  "mcp_enabled": true,
+  "results": [
+    {
+      "resume": "简历202607-AI工程",
+      "report_path": "experiments\\results\\demo\\demo_2008789833664847872_简历202607-AI工程.md",
+      "requirements": 12,
+      "matches": 12,
+      "hit": 2,
+      "partial": 0,
+      "missing": 10,
+      "gaps": 10,
+      "rewrites": 13,
+      "questions": 8,
+      "trace": "traces\\run_20261021-032815_23364eb5.jsonl",
+      "json": {
+        "jd_path": "data\\jds\\2008789833664847872.json",
+        "resume_path": "data\\resumes\\简历202607-AI工程.md",
+        "jd_title": "",
+        "requirements": [
+          {
+            "skill": "Agent",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Agent",
+            "detail": "Agent 编排"
+          },
+          {
+            "skill": "AIGC",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "llm",
+            "raw": "AIGC",
+            "detail": "AIGC 工具业务模块研发"
+          },
+          {
+            "skill": "模型接入",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "模型接入",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "任务编排",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "任务编排",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "部署发布",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "llm",
+            "raw": "部署发布",
+            "detail": "线上稳定性建设"
+          },
+          {
+            "skill": "服务端架构",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "llm",
+            "raw": "服务端架构",
+            "detail": "了解常用服务端架构"
+          },
+          {
+            "skill": "Prompt工程",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Prompt工程",
+            "detail": "Prompt 设计"
+          },
+          {
+            "skill": "RAG",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "RAG",
+            "detail": "RAG 检索增强"
+          },
+          {
+            "skill": "工程化",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule_fallback",
+            "raw": "工程化",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "服务端开发",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule_fallback",
+            "raw": "后台开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "AI应用开发",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule_fallback",
+            "raw": "大模型应用开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "游戏",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule_fallback",
+            "raw": "游戏",
+            "detail": "规则兜底命中"
+          }
+        ],
+        "resume_profile": {
+          "items": [
+            {
+              "title": "候选人",
+              "section": "其他",
+              "lines": [
+                "华中科技大学 软件工程 本硕 | 求职：AI平台/算法工程化工程师 | 武汉",
+                "男 | 25岁"
+              ]
+            },
+            {
+              "title": "华中科技大学软件工程本硕。熟练掌握 Python、PyTorch 生态，具备 AI 算法工程化落地全流程能力——从数据处理管线搭建、模型训练与调优，到推理服务部署与评估系统开发。硕士课题独立完成三维网格重构算法的工程实现与超分网络优化，算法与工程并重。同时具备 Java/SpringBoot 后端开发能力，能胜任跨语言、跨团队的 AI 中台与平台开发角色。",
+              "section": "个人优势",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 硕士\t2022 - 2026",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 本科\t2018 - 2022",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "三维激光刻蚀自适应网格重构与超分系统 | Python算法工程化\t2024.09 - 2026.04",
+              "section": "项目经历",
+              "lines": [
+                "使用 Python 开发高保真三维网格重构管线，设计模块化算法架构，支持可配置的参数化实验与批量验证",
+                "实现自适应网格细化算子的工程优化，将指数级全局计算降维至局部可控，单模型处理耗时 < 0.05s",
+                "优化 FSRCNN 超分网络推理管线：插值-卷积级联上采样 + 可学习亮度补偿，边界对齐误差降至 1.2px",
+                "技术栈：Python、PyTorch、NumPy、Open3D"
+              ]
+            },
+            {
+              "title": "NLP 词向量训练与文本分类系统工程 | Python全栈开发\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "从零实现 Word2Vec（CBOW/Skip-gram）反向传播与 BERT/Qwen 微调，完整覆盖数据→训练→评估→可视化链路",
+                "构建多维度自动评估与可视化系统，集成 SwanLab 实验管理，支持多轮超参对比与错误分析",
+                "技术栈：Python、PyTorch、Transformers、NumPy、SwanLab"
+              ]
+            },
+            {
+              "title": "Restyle — AI 发型试戴与推荐 App（黑客松） | iOS 前端 & 产品设计\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "48 小时黑客松全程 AI 辅助开发（Codex 多智能体），从零交付 AI Native App，面向海外市场发布",
+                "负责 iOS 原生前端架构（SwiftUI）与产品交互设计，实现 AI 分析管线的用户侧全流程交互体验",
+                "队友负责后端 API。AI 辅助开发模式本身就是对 AI 工程化能力的验证——用 AI 工具高效构建 AI 产品",
+                "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify"
+              ]
+            },
+            {
+              "title": "编程语言：Python（熟练）、Java（熟练）、SQL",
+              "section": "专业技能",
+              "lines": [
+                "AI 框架：PyTorch、Transformers、HuggingFace、NumPy",
+                "后端框架：Spring Boot、MyBatis、Flask",
+                "工程工具：Git、Linux、Docker（基础）、SwanLab",
+                "领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 开发"
+              ]
+            },
+            {
+              "title": "大学英语六级（CET-6）",
+              "section": "资格证书",
+              "lines": []
+            }
+          ],
+          "skills": [
+            {
+              "skill": "Python",
+              "category": "语言",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "PyTorch",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NumPy",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "三维重建",
+              "category": "算法",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformers",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、Transformers、NumPy、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MLflow",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、Transformers、NumPy、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformer",
+              "category": "算法",
+              "evidence": "技术栈：Python、PyTorch、Transformers、NumPy、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Swift",
+              "category": "语言",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "AI开发工具",
+              "category": "工程",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Spring Boot",
+              "category": "框架",
+              "evidence": "后端框架：Spring Boot、MyBatis、Flask",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "MyBatis",
+              "category": "框架",
+              "evidence": "后端框架：Spring Boot、MyBatis、Flask",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Flask",
+              "category": "框架",
+              "evidence": "后端框架：Spring Boot、MyBatis、Flask",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Docker",
+              "category": "框架",
+              "evidence": "工程工具：Git、Linux、Docker（基础）、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Git",
+              "category": "工程",
+              "evidence": "工程工具：Git、Linux、Docker（基础）、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Linux",
+              "category": "工程",
+              "evidence": "工程工具：Git、Linux、Docker（基础）、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "RESTful API",
+              "category": "工程",
+              "evidence": "领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 开发",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "工程化",
+              "category": "工程",
+              "evidence": "领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 开发",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "模型评估",
+              "category": "算法",
+              "evidence": "领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 开发",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "图像超分辨率",
+              "category": "算法",
+              "evidence": "优化 FSRCNN 超分网络推理管线：插值-卷积级联上采样 + 可学习亮度补偿，边界对齐误差降至 1.2px",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Word2Vec",
+              "category": "算法",
+              "evidence": "从零实现 Word2Vec（CBOW/Skip-gram）反向传播与 BERT/Qwen 微调，完整覆盖数据→训练→评估→可视化链路",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "BERT",
+              "category": "算法",
+              "evidence": "从零实现 Word2Vec（CBOW/Skip-gram）反向传播与 BERT/Qwen 微调，完整覆盖数据→训练→评估→可视化链路",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "LLM微调",
+              "category": "算法",
+              "evidence": "从零实现 Word2Vec（CBOW/Skip-gram）反向传播与 BERT/Qwen 微调，完整覆盖数据→训练→评估→可视化链路",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Agent",
+              "category": "算法",
+              "evidence": "48 小时黑客松全程 AI 辅助开发（Codex 多智能体），从零交付 AI Native App，面向海外市场发布",
+              "section": "项目经历",
+              "source": "rule"
+            }
+          ],
+          "raw_line_count": 31,
+          "source_path": "data\\resumes\\简历202607-AI工程.md",
+          "source_format": "md"
+        },
+        "matches": [
+          {
+            "requirement": {
+              "skill": "Agent",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Agent",
+              "detail": "Agent 编排"
+            },
+            "status": "命中",
+            "evidence": "48 小时黑客松全程 AI 辅助开发（Codex 多智能体），从零交付 AI Native App，面向海外市场发布",
+            "evidence_section": "项目经历",
+            "note": "简历中有带动作/量化的项目级证据"
+          },
+          {
+            "requirement": {
+              "skill": "AIGC",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+              "source": "llm",
+              "raw": "AIGC",
+              "detail": "AIGC 工具业务模块研发"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "模型接入",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "模型接入",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "任务编排",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "任务编排",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "部署发布",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "llm",
+              "raw": "部署发布",
+              "detail": "线上稳定性建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端架构",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "llm",
+              "raw": "服务端架构",
+              "detail": "了解常用服务端架构"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "Prompt工程",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Prompt工程",
+              "detail": "Prompt 设计"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "RAG",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "RAG",
+              "detail": "RAG 检索增强"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "工程化",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "rule_fallback",
+              "raw": "工程化",
+              "detail": "规则兜底命中"
+            },
+            "status": "命中",
+            "evidence": "AI 辅助开发模式本身就是对 AI 工程化能力的验证——用 AI 工具高效构建 AI 产品",
+            "evidence_section": "项目经历",
+            "note": "简历中有带动作/量化的项目级证据"
+          },
+          {
+            "requirement": {
+              "skill": "服务端开发",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "rule_fallback",
+              "raw": "后台开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "AI应用开发",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "rule_fallback",
+              "raw": "大模型应用开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "游戏",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+              "source": "rule_fallback",
+              "raw": "游戏",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          }
+        ],
+        "gaps": [
+          {
+            "skill": "AIGC",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AIGC 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「AIGC」（必须），简历中缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "kind": "gap"
+          },
+          {
+            "skill": "AI应用开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AI应用开发 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 AI应用开发 做 X」无法支撑追问",
+            "rationale": "JD 要求「AI应用开发」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Prompt工程",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Prompt工程 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Prompt工程 做 X」无法支撑追问",
+            "rationale": "JD 要求「Prompt工程」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "RAG",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 RAG 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 RAG 做 X」无法支撑追问",
+            "rationale": "JD 要求「RAG」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "任务编排",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 任务编排 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「任务编排」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端开发 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端开发」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端架构",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端架构 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端架构」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "模型接入",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 模型接入 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「模型接入」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "游戏",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 游戏 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「游戏」（必须），简历中缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "kind": "gap"
+          },
+          {
+            "skill": "部署发布",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 部署发布 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「部署发布」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          }
+        ],
+        "rewrites": [
+          {
+            "skill": "AIGC",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「AIGC」（必须），当前缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "rule"
+          },
+          {
+            "skill": "模型接入",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「模型接入」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "任务编排",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「任务编排」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "部署发布",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「部署发布」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端架构",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端架构」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "Prompt工程",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Prompt工程 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Prompt工程」无法支撑追问",
+            "reason": "JD 要求「Prompt工程」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "RAG",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 RAG 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 RAG」无法支撑追问",
+            "reason": "JD 要求「RAG」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端开发」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "AI应用开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 AI应用开发 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 AI应用开发」无法支撑追问",
+            "reason": "JD 要求「AI应用开发」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "游戏",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「游戏」（必须），当前缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "负责 iOS 原生前端架构（SwiftUI）与产品交互设计，实现 AI 分析管线的用户侧全流程交互体验",
+            "after": "在 Swift 相关工作中，具体负责「负责 iOS 原生前端架构（SwiftUI）与产品交互设计，实现 AI 分析管线」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify",
+            "after": "在 Swift 相关工作中，具体负责「技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "RESTful API",
+            "target": "简历「专业技能」段落",
+            "before": "领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 开发",
+            "after": "在 RESTful API 相关工作中，具体负责「领域能力：AI 算法工程化、数据处理管线、模型评估系统、RESTful API 」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          }
+        ],
+        "questions": [
+          {
+            "question": "JD 要求 AIGC 方向。你在过往项目里有没有接触过类似的业务问题？你会怎么把现有经验迁移过来？",
+            "category": "业务",
+            "target_skill": "AIGC",
+            "reason": "JD 必须项「AIGC」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 模型接入。你做过的最接近 模型接入 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "模型接入",
+            "reason": "JD 必须项「模型接入」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 任务编排。你做过的最接近 任务编排 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "任务编排",
+            "reason": "JD 必须项「任务编排」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 部署发布。你做过的最接近 部署发布 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "部署发布",
+            "reason": "JD 必须项「部署发布」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端架构。你做过的最接近 服务端架构 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端架构",
+            "reason": "JD 必须项「服务端架构」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 Prompt工程。你没有相关项目经验的话，能不能说一个你自学 Prompt工程 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Prompt工程",
+            "reason": "JD 必须项「Prompt工程」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 RAG。你没有相关项目经验的话，能不能说一个你自学 RAG 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "RAG",
+            "reason": "JD 必须项「RAG」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端开发。你做过的最接近 服务端开发 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端开发",
+            "reason": "JD 必须项「服务端开发」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          }
+        ],
+        "llm_usage": {
+          "backend": "deepseek",
+          "calls": 1,
+          "prompt_tokens": 968,
+          "completion_tokens": 729,
+          "cost_usd": 0.000583,
+          "price_known": true,
+          "errors": []
+        },
+        "trace": {
+          "path": "traces\\run_20261021-032815_23364eb5.jsonl",
+          "steps": 6,
+          "events": {
+            "run_start": 1,
+            "mcp_connected": 1,
+            "mcp_load": 2,
+            "step_start": 6,
+            "step_end": 6
+          },
+          "tool_calls": 2,
+          "tool_failures": 0,
+          "tool_degraded": 0,
+          "note": "每一步的输入输出都落在这条 JSONL 里，可 grep 可回放"
+        },
+        "fallback_ratios": {
+          "jd_extraction_rule_fallback": 0.3333
+        },
+        "notes": [
+          "JD 抽取：{'llm_returned': 11, 'llm_kept': 8, 'rejected_unknown_skill': 0, 'rejected_bad_importance': 0, 'rejected_no_evidence': 0, 'rejected_evidence_not_in_text': 0, 'rejected_non_skill': 2, 'fallback_used': False, 'fallback_reason': '', 'merged_from_rules': 4}",
+          "覆盖情况：{'total': 12, 'hit_rate': 0.1667, 'partial_rate': 0.0, 'missing_rate': 0.8333, 'must_hit_rate': 0.1667}"
+        ],
+        "started_at": "2026-10-21 03:28:15",
+        "elapsed_ms": 20272.63
+      }
+    },
+    {
+      "resume": "简历202607-Java开发",
+      "report_path": "experiments\\results\\demo\\demo_2008789833664847872_简历202607-Java开发.md",
+      "requirements": 12,
+      "matches": 12,
+      "hit": 1,
+      "partial": 0,
+      "missing": 11,
+      "gaps": 11,
+      "rewrites": 16,
+      "questions": 8,
+      "trace": "traces\\run_20261021-032836_8515c331.jsonl",
+      "json": {
+        "jd_path": "data\\jds\\2008789833664847872.json",
+        "resume_path": "data\\resumes\\简历202607-Java开发.md",
+        "jd_title": "",
+        "requirements": [
+          {
+            "skill": "Agent",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Agent",
+            "detail": "Agent 编排"
+          },
+          {
+            "skill": "AIGC",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "llm",
+            "raw": "AIGC",
+            "detail": "AIGC 工具业务模块研发"
+          },
+          {
+            "skill": "模型接入",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "模型接入",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "任务编排",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "任务编排",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "部署发布",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "llm",
+            "raw": "部署发布",
+            "detail": "线上稳定性建设"
+          },
+          {
+            "skill": "服务端架构",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "llm",
+            "raw": "服务端架构",
+            "detail": "了解常用服务端架构"
+          },
+          {
+            "skill": "Prompt工程",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Prompt工程",
+            "detail": "熟悉 Prompt 设计"
+          },
+          {
+            "skill": "RAG",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "RAG",
+            "detail": "RAG 检索增强"
+          },
+          {
+            "skill": "工程化",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule_fallback",
+            "raw": "工程化",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "服务端开发",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule_fallback",
+            "raw": "后台开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "AI应用开发",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule_fallback",
+            "raw": "大模型应用开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "游戏",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule_fallback",
+            "raw": "游戏",
+            "detail": "规则兜底命中"
+          }
+        ],
+        "resume_profile": {
+          "items": [
+            {
+              "title": "候选人",
+              "section": "其他",
+              "lines": [
+                "华中科技大学 软件工程 本硕 | 求职：Java后端开发工程师 | 武汉",
+                "男 | 25岁"
+              ]
+            },
+            {
+              "title": "华中科技大学软件工程本硕。Java 基础扎实，熟练掌握 Spring Boot 全栈开发技术栈，具备独立完成 Web 后端系统从设计到交付的全流程能力。同时具有 Python/PyTorch 算法开发经验，能将算法能力应用于数据驱动的业务场景。代码规范，注重系统设计与接口质量，能快速融入团队协作开发。",
+              "section": "个人优势",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 硕士\t2022 - 2026",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 本科\t2018 - 2022",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "青少年心理健康咨询系统 | Java后端开发\t2022.03 - 2022.06",
+              "section": "项目经历",
+              "lines": [
+                "独立完成系统后端架构设计与全栈开发，面向青少年用户群体提供匿名心理咨询、专家在线问诊与自助测评服务",
+                "设计并实现基于 RBAC 的三级权限管理体系（普通用户、咨询师、管理员），细粒度控制接口访问与数据可见性",
+                "采用 RESTful API 规范设计 10+ 业务接口，通过 AOP 实现统一日志记录与异常处理，降低模块耦合",
+                "使用 MyBatis 进行数据持久化，设计数据库表结构并优化关键查询，保证接口在高请求量下的数据一致性",
+                "独立完成前后端联调与接口文档编写，系统稳定交付并通过答辩",
+                "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript"
+              ]
+            },
+            {
+              "title": "三维激光刻蚀自适应网格重构系统 | 算法开发（Python）\t2024.09 - 2026.04",
+              "section": "项目经历",
+              "lines": [
+                "开发高保真三维网格重构管线，设计模块化算法架构，实现自适应网格细化与 FSRCNN 超分网络优化",
+                "单模型处理耗时 < 0.05s，边界对齐误差降至 1.2px，边界重合率达 98.5%",
+                "技术栈：Python、PyTorch、NumPy、Open3D"
+              ]
+            },
+            {
+              "title": "NLP 词向量训练与文本分类 | Python开发\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "从零实现 CBOW/Skip-gram 反向传播与 BERT/Qwen 微调，纯 PyTorch 代码，不依赖第三方库",
+                "构建多维度评估体系（P/R/F1/混淆矩阵），集成 SwanLab 实验管理",
+                "技术栈：Python、PyTorch、Transformers、SwanLab"
+              ]
+            },
+            {
+              "title": "Restyle — AI 发型试戴 App（黑客松） | iOS 前端\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "48 小时黑客松，AI 辅助开发（Codex），负责 SwiftUI 前端架构与产品交互设计，面向海外发布",
+                "技术栈：SwiftUI、AI 辅助开发（Codex）"
+              ]
+            },
+            {
+              "title": "后端：Java（熟练）、Spring Boot、MyBatis、MySQL、RESTful API",
+              "section": "专业技能",
+              "lines": [
+                "前端基础：HTML5、JavaScript、Vue（基础）",
+                "其他语言：Python、SQL",
+                "工具与平台：Git、Linux、Maven、Postman、SwanLab",
+                "加分项：PyTorch 深度学习框架、NLP 基础、数据处理与特征工程"
+              ]
+            },
+            {
+              "title": "大学英语六级（CET-6）",
+              "section": "资格证书",
+              "lines": []
+            }
+          ],
+          "skills": [
+            {
+              "skill": "Java",
+              "category": "语言",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "JavaScript",
+              "category": "语言",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Spring Boot",
+              "category": "框架",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MyBatis",
+              "category": "框架",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MySQL",
+              "category": "框架",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "机器学习",
+              "category": "算法",
+              "evidence": "技术栈：Java、Spring Boot、MyBatis、MySQL、HTML5/JavaScript",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Python",
+              "category": "语言",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "PyTorch",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NumPy",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "三维重建",
+              "category": "算法",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformers",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MLflow",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformer",
+              "category": "算法",
+              "evidence": "技术栈：Python、PyTorch、Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Swift",
+              "category": "语言",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "AI开发工具",
+              "category": "工程",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Vue",
+              "category": "框架",
+              "evidence": "前端基础：HTML5、JavaScript、Vue（基础）",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "SQL",
+              "category": "语言",
+              "evidence": "其他语言：Python、SQL",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Maven",
+              "category": "框架",
+              "evidence": "工具与平台：Git、Linux、Maven、Postman、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Git",
+              "category": "工程",
+              "evidence": "工具与平台：Git、Linux、Maven、Postman、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Linux",
+              "category": "工程",
+              "evidence": "工具与平台：Git、Linux、Maven、Postman、SwanLab",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "服务端开发",
+              "category": "工程",
+              "evidence": "华中科技大学 软件工程 本硕 | 求职：Java后端开发工程师 | 武汉",
+              "section": "其他",
+              "source": "rule"
+            },
+            {
+              "skill": "架构设计",
+              "category": "工程",
+              "evidence": "独立完成系统后端架构设计与全栈开发，面向青少年用户群体提供匿名心理咨询、专家在线问诊与自助测评服务",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "RESTful API",
+              "category": "工程",
+              "evidence": "采用 RESTful API 规范设计 10+ 业务接口，通过 AOP 实现统一日志记录与异常处理，降低模块耦合",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "图像超分辨率",
+              "category": "算法",
+              "evidence": "开发高保真三维网格重构管线，设计模块化算法架构，实现自适应网格细化与 FSRCNN 超分网络优化",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Word2Vec",
+              "category": "算法",
+              "evidence": "从零实现 CBOW/Skip-gram 反向传播与 BERT/Qwen 微调，纯 PyTorch 代码，不依赖第三方库",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "BERT",
+              "category": "算法",
+              "evidence": "从零实现 CBOW/Skip-gram 反向传播与 BERT/Qwen 微调，纯 PyTorch 代码，不依赖第三方库",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "LLM微调",
+              "category": "算法",
+              "evidence": "从零实现 CBOW/Skip-gram 反向传播与 BERT/Qwen 微调，纯 PyTorch 代码，不依赖第三方库",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NLP",
+              "category": "算法",
+              "evidence": "加分项：PyTorch 深度学习框架、NLP 基础、数据处理与特征工程",
+              "section": "专业技能",
+              "source": "rule"
+            }
+          ],
+          "raw_line_count": 35,
+          "source_path": "data\\resumes\\简历202607-Java开发.md",
+          "source_format": "md"
+        },
+        "matches": [
+          {
+            "requirement": {
+              "skill": "Agent",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Agent",
+              "detail": "Agent 编排"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "AIGC",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+              "source": "llm",
+              "raw": "AIGC",
+              "detail": "AIGC 工具业务模块研发"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "模型接入",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "模型接入",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "任务编排",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "任务编排",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "部署发布",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "llm",
+              "raw": "部署发布",
+              "detail": "线上稳定性建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端架构",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "llm",
+              "raw": "服务端架构",
+              "detail": "了解常用服务端架构"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "Prompt工程",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Prompt工程",
+              "detail": "熟悉 Prompt 设计"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "RAG",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "RAG",
+              "detail": "RAG 检索增强"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "工程化",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "rule_fallback",
+              "raw": "工程化",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端开发",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "rule_fallback",
+              "raw": "后台开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "命中",
+            "evidence": "华中科技大学 软件工程 本硕 | 求职：Java后端开发工程师 | 武汉",
+            "evidence_section": "其他",
+            "note": "简历中有带动作/量化的项目级证据"
+          },
+          {
+            "requirement": {
+              "skill": "AI应用开发",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "rule_fallback",
+              "raw": "大模型应用开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "游戏",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+              "source": "rule_fallback",
+              "raw": "游戏",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          }
+        ],
+        "gaps": [
+          {
+            "skill": "AIGC",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AIGC 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「AIGC」（必须），简历中缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "kind": "gap"
+          },
+          {
+            "skill": "AI应用开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AI应用开发 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 AI应用开发 做 X」无法支撑追问",
+            "rationale": "JD 要求「AI应用开发」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Agent",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Agent 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Agent 做 X」无法支撑追问",
+            "rationale": "JD 要求「Agent」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Prompt工程",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Prompt工程 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Prompt工程 做 X」无法支撑追问",
+            "rationale": "JD 要求「Prompt工程」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "RAG",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 RAG 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 RAG 做 X」无法支撑追问",
+            "rationale": "JD 要求「RAG」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "任务编排",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 任务编排 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「任务编排」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "工程化",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 工程化 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「工程化」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端架构",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端架构 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端架构」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "模型接入",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 模型接入 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「模型接入」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "游戏",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 游戏 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「游戏」（必须），简历中缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "kind": "gap"
+          },
+          {
+            "skill": "部署发布",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 部署发布 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「部署发布」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          }
+        ],
+        "rewrites": [
+          {
+            "skill": "Agent",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Agent 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Agent」无法支撑追问",
+            "reason": "JD 要求「Agent」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "AIGC",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「AIGC」（必须），当前缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "rule"
+          },
+          {
+            "skill": "模型接入",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「模型接入」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "任务编排",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「任务编排」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "部署发布",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「部署发布」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端架构",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端架构」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "Prompt工程",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Prompt工程 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Prompt工程」无法支撑追问",
+            "reason": "JD 要求「Prompt工程」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "RAG",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 RAG 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 RAG」无法支撑追问",
+            "reason": "JD 要求「RAG」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "工程化",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「工程化」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "AI应用开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 AI应用开发 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 AI应用开发」无法支撑追问",
+            "reason": "JD 要求「AI应用开发」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "游戏",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「游戏」（必须），当前缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule"
+          },
+          {
+            "skill": "Java",
+            "target": "简历「其他」段落",
+            "before": "华中科技大学 软件工程 本硕 | 求职：Java后端开发工程师 | 武汉",
+            "after": "在 Java 相关工作中，具体负责「华中科技大学 软件工程 本硕 | 求职：Java后端开发工程师 | 武汉」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「项目经历」段落",
+            "before": "设计并实现基于 RBAC 的三级权限管理体系（普通用户、咨询师、管理员），细粒度控制接口访问与数据可见性",
+            "after": "设计并实现基于 RBAC 的三级权限管理体系（普通用户、咨询师、管理员），细粒度——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "RESTful API",
+            "target": "简历「项目经历」段落",
+            "before": "采用 RESTful API 规范设计 10+ 业务接口，通过 AOP 实现统一日志记录与异常处理，降低模块耦合",
+            "after": "在 RESTful API 相关工作中，具体负责「采用 RESTful API 规范设计 10+ 业务接口，通过 AOP 实现统一」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+            "after": "在 Swift 相关工作中，具体负责「技术栈：SwiftUI、AI 辅助开发（Codex）」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "PyTorch",
+            "target": "简历「专业技能」段落",
+            "before": "加分项：PyTorch 深度学习框架、NLP 基础、数据处理与特征工程",
+            "after": "在 PyTorch 相关工作中，具体负责「加分项：PyTorch 深度学习框架、NLP 基础、数据处理与特征工程」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          }
+        ],
+        "questions": [
+          {
+            "question": "JD 要求 Agent。你没有相关项目经验的话，能不能说一个你自学 Agent 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Agent",
+            "reason": "JD 必须项「Agent」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 AIGC 方向。你在过往项目里有没有接触过类似的业务问题？你会怎么把现有经验迁移过来？",
+            "category": "业务",
+            "target_skill": "AIGC",
+            "reason": "JD 必须项「AIGC」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 模型接入。你做过的最接近 模型接入 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "模型接入",
+            "reason": "JD 必须项「模型接入」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 任务编排。你做过的最接近 任务编排 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "任务编排",
+            "reason": "JD 必须项「任务编排」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 部署发布。你做过的最接近 部署发布 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "部署发布",
+            "reason": "JD 必须项「部署发布」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端架构。你做过的最接近 服务端架构 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端架构",
+            "reason": "JD 必须项「服务端架构」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 Prompt工程。你没有相关项目经验的话，能不能说一个你自学 Prompt工程 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Prompt工程",
+            "reason": "JD 必须项「Prompt工程」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 RAG。你没有相关项目经验的话，能不能说一个你自学 RAG 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "RAG",
+            "reason": "JD 必须项「RAG」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          }
+        ],
+        "llm_usage": {
+          "backend": "deepseek",
+          "calls": 2,
+          "prompt_tokens": 1936,
+          "completion_tokens": 1459,
+          "cost_usd": 0.001166,
+          "price_known": true,
+          "errors": []
+        },
+        "trace": {
+          "path": "traces\\run_20261021-032836_8515c331.jsonl",
+          "steps": 6,
+          "events": {
+            "run_start": 1,
+            "mcp_connected": 1,
+            "mcp_load": 2,
+            "step_start": 6,
+            "step_end": 6
+          },
+          "tool_calls": 2,
+          "tool_failures": 0,
+          "tool_degraded": 0,
+          "note": "每一步的输入输出都落在这条 JSONL 里，可 grep 可回放"
+        },
+        "fallback_ratios": {
+          "jd_extraction_rule_fallback": 0.3333
+        },
+        "notes": [
+          "JD 抽取：{'llm_returned': 11, 'llm_kept': 8, 'rejected_unknown_skill': 0, 'rejected_bad_importance': 0, 'rejected_no_evidence': 0, 'rejected_evidence_not_in_text': 0, 'rejected_non_skill': 2, 'fallback_used': False, 'fallback_reason': '', 'merged_from_rules': 4}",
+          "覆盖情况：{'total': 12, 'hit_rate': 0.0833, 'partial_rate': 0.0, 'missing_rate': 0.9167, 'must_hit_rate': 0.0833}"
+        ],
+        "started_at": "2026-10-21 03:28:36",
+        "elapsed_ms": 16160.23
+      }
+    },
+    {
+      "resume": "简历202607-NLP算法",
+      "report_path": "experiments\\results\\demo\\demo_2008789833664847872_简历202607-NLP算法.md",
+      "requirements": 12,
+      "matches": 12,
+      "hit": 1,
+      "partial": 1,
+      "missing": 10,
+      "gaps": 11,
+      "rewrites": 17,
+      "questions": 8,
+      "trace": "traces\\run_20261021-032852_af49f213.jsonl",
+      "json": {
+        "jd_path": "data\\jds\\2008789833664847872.json",
+        "resume_path": "data\\resumes\\简历202607-NLP算法.md",
+        "jd_title": "",
+        "requirements": [
+          {
+            "skill": "Agent",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Agent",
+            "detail": "AI Agent 业务模块研发与 Agent 编排"
+          },
+          {
+            "skill": "AIGC",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "llm",
+            "raw": "AIGC",
+            "detail": "AIGC 工具业务模块"
+          },
+          {
+            "skill": "模型接入",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "模型接入",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "任务编排",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "任务编排",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "部署发布",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "llm",
+            "raw": "部署发布",
+            "detail": "线上稳定性建设"
+          },
+          {
+            "skill": "服务端架构",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "llm",
+            "raw": "服务端架构",
+            "detail": "常用服务端架构"
+          },
+          {
+            "skill": "Prompt工程",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Prompt工程",
+            "detail": "Prompt 设计"
+          },
+          {
+            "skill": "RAG",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "RAG",
+            "detail": "RAG 检索增强"
+          },
+          {
+            "skill": "工程化",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule_fallback",
+            "raw": "工程化",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "服务端开发",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule_fallback",
+            "raw": "后台开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "AI应用开发",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule_fallback",
+            "raw": "大模型应用开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "游戏",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule_fallback",
+            "raw": "游戏",
+            "detail": "规则兜底命中"
+          }
+        ],
+        "resume_profile": {
+          "items": [
+            {
+              "title": "候选人",
+              "section": "其他",
+              "lines": [
+                "华中科技大学 软件工程 本硕 | 求职：NLP算法工程师 | 武汉",
+                "男 | 25岁"
+              ]
+            },
+            {
+              "title": "华中科技大学软件工程本硕。熟练掌握 Python、PyTorch、Transformers 生态，具备 NLP 全链路独立实现能力（数据预处理→词向量训练→模型微调→评估部署）。硕士课题聚焦三维激光刻蚀网格重构与超分优化，核心算法从设计到落地独立完成，在边界对齐与细节还原上取得显著量化成果。代码基础扎实，能完成从算法设计到工程落地的完整闭环。",
+              "section": "个人优势",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 硕士\t2022 - 2026",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 本科\t2018 - 2022",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "NLP 词向量训练与文本分类 | 独立开发\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "从零搭建 NLP 全链路：语料清洗→词向量训练→下游文本分类，完整覆盖数据预处理到模型评估",
+                "纯代码实现 CBOW 与 Skip-gram 反向传播（不依赖第三方词向量库），支持动态负采样与多窗口对比实验",
+                "搭建 BERT、Qwen-0.5B 微调管线，完成句子级文本分类，支持多轮超参对比与错误分析",
+                "设计多维度评估体系：P/R/F1/混淆矩阵/错误分析，集成 SwanLab 实验管理",
+                "技术栈：PyTorch、HuggingFace Transformers、SwanLab"
+              ]
+            },
+            {
+              "title": "灰度驱动的三维激光刻蚀自适应网格重构系统 | 核心算法研发\t2024.09 - 2026.04",
+              "section": "项目经历",
+              "lines": [
+                "针对微纳制造中二维灰度纹理向三维网格映射时的边界失真与细节丢失问题，开发高保真网格重构管线",
+                "设计基于边缘敏感场激活的自适应网格细化算子，将指数级全局计算降维至局部可控，单模型处理耗时 < 0.05s",
+                "针对亚像素级\"横跨三角形\"建立四类本征畸变的二分迭代探测与重组协议，引入局部曲率感知的 Taubin 边界平滑消除阶梯锯齿",
+                "重构并优化 FSRCNN 超分网络，引入插值-卷积级联上采样与可学习亮度补偿，边缘保持能力提升至 0.85",
+                "系统边界对齐误差降至 1.2px，边界重合率达 98.5%"
+              ]
+            },
+            {
+              "title": "Restyle — AI 发型试戴与推荐 App（黑客松） | iOS 前端 & 产品设计\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "48 小时黑客松，全程使用 AI 辅助开发（Codex 多智能体），从零交付 AI Native App：SwiftUI 前端 + Node.js 后端",
+                "面向海外市场发布。负责 iOS 原生前端架构、产品交互设计与 AI 分析管线交互（人脸检测→风格匹配→推荐报告→虚拟试戴）",
+                "后端 API 由队友开发。使用 SwiftUI 原生实现扫描动画、风格卡片、试戴预览等核心交互",
+                "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify 后端"
+              ]
+            },
+            {
+              "title": "编程语言：Python（熟练）、Java、C++、Swift（基础）",
+              "section": "专业技能",
+              "lines": [
+                "框架与工具：PyTorch、Transformers、HuggingFace、Fastify、Spring Boot",
+                "NLP 方向：词向量训练（CBOW/Skip-gram）、BERT 微调、文本分类、模型评估",
+                "AI 工程：AI 辅助开发（Codex/Copilot）、多智能体协作流程",
+                "其他：Git、Linux、SwanLab 实验管理"
+              ]
+            },
+            {
+              "title": "大学英语六级（CET-6）",
+              "section": "资格证书",
+              "lines": []
+            }
+          ],
+          "skills": [
+            {
+              "skill": "PyTorch",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、HuggingFace Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformers",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、HuggingFace Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MLflow",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、HuggingFace Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformer",
+              "category": "算法",
+              "evidence": "技术栈：PyTorch、HuggingFace Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Swift",
+              "category": "语言",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify 后端",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "AI开发工具",
+              "category": "工程",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify 后端",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NLP",
+              "category": "算法",
+              "evidence": "华中科技大学 软件工程 本硕 | 求职：NLP算法工程师 | 武汉",
+              "section": "其他",
+              "source": "rule"
+            },
+            {
+              "skill": "文本分类",
+              "category": "算法",
+              "evidence": "从零搭建 NLP 全链路：语料清洗→词向量训练→下游文本分类，完整覆盖数据预处理到模型评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "模型评估",
+              "category": "算法",
+              "evidence": "从零搭建 NLP 全链路：语料清洗→词向量训练→下游文本分类，完整覆盖数据预处理到模型评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "数据标注",
+              "category": "业务",
+              "evidence": "从零搭建 NLP 全链路：语料清洗→词向量训练→下游文本分类，完整覆盖数据预处理到模型评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Word2Vec",
+              "category": "算法",
+              "evidence": "纯代码实现 CBOW 与 Skip-gram 反向传播（不依赖第三方词向量库），支持动态负采样与多窗口对比实验",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "BERT",
+              "category": "算法",
+              "evidence": "搭建 BERT、Qwen-0.5B 微调管线，完成句子级文本分类，支持多轮超参对比与错误分析",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "LLM微调",
+              "category": "算法",
+              "evidence": "搭建 BERT、Qwen-0.5B 微调管线，完成句子级文本分类，支持多轮超参对比与错误分析",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "三维重建",
+              "category": "算法",
+              "evidence": "针对微纳制造中二维灰度纹理向三维网格映射时的边界失真与细节丢失问题，开发高保真网格重构管线",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "图像超分辨率",
+              "category": "算法",
+              "evidence": "重构并优化 FSRCNN 超分网络，引入插值-卷积级联上采样与可学习亮度补偿，边缘保持能力提升至 0.85",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "JavaScript",
+              "category": "语言",
+              "evidence": "48 小时黑客松，全程使用 AI 辅助开发（Codex 多智能体），从零交付 AI Native App：SwiftUI 前端 + Node.js 后端",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Agent",
+              "category": "算法",
+              "evidence": "48 小时黑客松，全程使用 AI 辅助开发（Codex 多智能体），从零交付 AI Native App：SwiftUI 前端 + Node.js 后端",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Spring Boot",
+              "category": "框架",
+              "evidence": "框架与工具：PyTorch、Transformers、HuggingFace、Fastify、Spring Boot",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Git",
+              "category": "工程",
+              "evidence": "其他：Git、Linux、SwanLab 实验管理",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Linux",
+              "category": "工程",
+              "evidence": "其他：Git、Linux、SwanLab 实验管理",
+              "section": "专业技能",
+              "source": "rule"
+            }
+          ],
+          "raw_line_count": 34,
+          "source_path": "data\\resumes\\简历202607-NLP算法.md",
+          "source_format": "md"
+        },
+        "matches": [
+          {
+            "requirement": {
+              "skill": "Agent",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Agent",
+              "detail": "AI Agent 业务模块研发与 Agent 编排"
+            },
+            "status": "命中",
+            "evidence": "48 小时黑客松，全程使用 AI 辅助开发（Codex 多智能体），从零交付 AI Native App：SwiftUI 前端 + Node.js 后端",
+            "evidence_section": "项目经历",
+            "note": "简历中有带动作/量化的项目级证据"
+          },
+          {
+            "requirement": {
+              "skill": "AIGC",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+              "source": "llm",
+              "raw": "AIGC",
+              "detail": "AIGC 工具业务模块"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "模型接入",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "模型接入",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "任务编排",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "任务编排",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "部署发布",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "llm",
+              "raw": "部署发布",
+              "detail": "线上稳定性建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端架构",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "llm",
+              "raw": "服务端架构",
+              "detail": "常用服务端架构"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "Prompt工程",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Prompt工程",
+              "detail": "Prompt 设计"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "RAG",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "RAG",
+              "detail": "RAG 检索增强"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "工程化",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "rule_fallback",
+              "raw": "工程化",
+              "detail": "规则兜底命中"
+            },
+            "status": "部分命中",
+            "evidence": "候选人\n华中科技大学 软件工程 本硕 | 求职：NLP算法工程师 | 武汉\n\n男 | 25岁\n个人优势\n华中科技大学软件工程本硕。熟练掌握 Python、PyTorch、Transformers 生态，具备 NLP 全链路独立实现能力（数据预处理→词向量训练→模型微调→评估部署）。硕士课题聚焦三维激光刻蚀网格重构与超分优化，核心算法从设计到落地独立完成，在边界对齐与细节还原上取得显著量化成果。代码基础扎实，能完成从算法设计到工程落地的完整闭环。\n教育经历\n华中科技大学\t软件工程 硕士\t2022 - 2026\n华中科技大学\t软件工程 本科\t2018 - 2022\n项目经历\nNLP 词向量训练与文本分类 | 独立开发\t2026.07\n• 从零搭建 NLP 全链路：语料清洗→词向量训练→下游文本分类，完整覆盖数据预处理到模型评估\n• 纯代码实现 CBOW 与 Skip-gram 反向传播（不依赖",
+            "evidence_section": "MCP 检索",
+            "note": "词面未直接命中，但简历语义检索片段中出现该技能（按部分命中处理）"
+          },
+          {
+            "requirement": {
+              "skill": "服务端开发",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "rule_fallback",
+              "raw": "后台开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "AI应用开发",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "rule_fallback",
+              "raw": "大模型应用开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "游戏",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+              "source": "rule_fallback",
+              "raw": "游戏",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          }
+        ],
+        "gaps": [
+          {
+            "skill": "AIGC",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AIGC 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「AIGC」（必须），简历中缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "kind": "gap"
+          },
+          {
+            "skill": "AI应用开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AI应用开发 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 AI应用开发 做 X」无法支撑追问",
+            "rationale": "JD 要求「AI应用开发」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Prompt工程",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Prompt工程 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Prompt工程 做 X」无法支撑追问",
+            "rationale": "JD 要求「Prompt工程」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "RAG",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 RAG 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 RAG 做 X」无法支撑追问",
+            "rationale": "JD 要求「RAG」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "任务编排",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 任务编排 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「任务编排」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端开发 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端开发」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端架构",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端架构 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端架构」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "模型接入",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 模型接入 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「模型接入」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "游戏",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 游戏 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「游戏」（必须），简历中缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "kind": "gap"
+          },
+          {
+            "skill": "部署发布",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 部署发布 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「部署发布」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          },
+          {
+            "skill": "工程化",
+            "importance": "必须",
+            "priority": 2.0,
+            "action": "简历里已经出现 工程化，但没有数字——给这条经历补上规模/时延/并发等可验证数字，面试时能被追问也答得出",
+            "rationale": "JD 要求「工程化」（必须），简历中部分命中。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "strengthen"
+          }
+        ],
+        "rewrites": [
+          {
+            "skill": "AIGC",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「AIGC」（必须），当前缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "rule"
+          },
+          {
+            "skill": "模型接入",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「模型接入」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "任务编排",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「任务编排」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "部署发布",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「部署发布」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端架构",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端架构」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "Prompt工程",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Prompt工程 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Prompt工程」无法支撑追问",
+            "reason": "JD 要求「Prompt工程」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "RAG",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 RAG 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 RAG」无法支撑追问",
+            "reason": "JD 要求「RAG」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "工程化",
+            "target": "简历中提到该技能的那一条项目描述",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「工程化」（必须），当前部分命中。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端开发」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "AI应用开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 AI应用开发 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 AI应用开发」无法支撑追问",
+            "reason": "JD 要求「AI应用开发」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "游戏",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「游戏」（必须），当前缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「项目经历」段落",
+            "before": "纯代码实现 CBOW 与 Skip-gram 反向传播（不依赖第三方词向量库），支持动态负采样与多窗口对比实验",
+            "after": "纯代码实现 CBOW 与 Skip-gram 反向传播（不依赖第三方词向量库），——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「项目经历」段落",
+            "before": "重构并优化 FSRCNN 超分网络，引入插值-卷积级联上采样与可学习亮度补偿，边缘保持能力提升至 0.85",
+            "after": "重构并优化 FSRCNN 超分网络，引入插值-卷积级联上采样与可学习亮度补偿，边——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「项目经历」段落",
+            "before": "面向海外市场发布。负责 iOS 原生前端架构、产品交互设计与 AI 分析管线交互（人脸检测→风格匹配→推荐报告→虚拟试戴）",
+            "after": "面向海外市场发布。负责 iOS 原生前端架构、产品交互设计与 AI 分析管线交互——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "后端 API 由队友开发。使用 SwiftUI 原生实现扫描动画、风格卡片、试戴预览等核心交互",
+            "after": "在 Swift 相关工作中，具体负责「后端 API 由队友开发。使用 SwiftUI 原生实现扫描动画、风格卡片、试戴」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify 后端",
+            "after": "在 Swift 相关工作中，具体负责「技术栈：SwiftUI、AI 辅助开发（Codex）、Fastify 后端」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「专业技能」段落",
+            "before": "AI 工程：AI 辅助开发（Codex/Copilot）、多智能体协作流程",
+            "after": "AI 工程：AI 辅助开发（Codex/Copilot）、多智能体协作流程——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          }
+        ],
+        "questions": [
+          {
+            "question": "JD 要求 AIGC 方向。你在过往项目里有没有接触过类似的业务问题？你会怎么把现有经验迁移过来？",
+            "category": "业务",
+            "target_skill": "AIGC",
+            "reason": "JD 必须项「AIGC」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 模型接入。你做过的最接近 模型接入 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "模型接入",
+            "reason": "JD 必须项「模型接入」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 任务编排。你做过的最接近 任务编排 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "任务编排",
+            "reason": "JD 必须项「任务编排」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 部署发布。你做过的最接近 部署发布 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "部署发布",
+            "reason": "JD 必须项「部署发布」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端架构。你做过的最接近 服务端架构 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端架构",
+            "reason": "JD 必须项「服务端架构」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 Prompt工程。你没有相关项目经验的话，能不能说一个你自学 Prompt工程 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Prompt工程",
+            "reason": "JD 必须项「Prompt工程」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 RAG。你没有相关项目经验的话，能不能说一个你自学 RAG 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "RAG",
+            "reason": "JD 必须项「RAG」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端开发。你做过的最接近 服务端开发 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端开发",
+            "reason": "JD 必须项「服务端开发」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          }
+        ],
+        "llm_usage": {
+          "backend": "deepseek",
+          "calls": 3,
+          "prompt_tokens": 2904,
+          "completion_tokens": 2131,
+          "cost_usd": 0.001714,
+          "price_known": true,
+          "errors": []
+        },
+        "trace": {
+          "path": "traces\\run_20261021-032852_af49f213.jsonl",
+          "steps": 6,
+          "events": {
+            "run_start": 1,
+            "mcp_connected": 1,
+            "mcp_load": 2,
+            "step_start": 6,
+            "step_end": 6,
+            "mcp_evidence_found": 1
+          },
+          "tool_calls": 3,
+          "tool_failures": 0,
+          "tool_degraded": 0,
+          "note": "每一步的输入输出都落在这条 JSONL 里，可 grep 可回放"
+        },
+        "fallback_ratios": {
+          "jd_extraction_rule_fallback": 0.3333
+        },
+        "notes": [
+          "JD 抽取：{'llm_returned': 10, 'llm_kept': 8, 'rejected_unknown_skill': 0, 'rejected_bad_importance': 0, 'rejected_no_evidence': 0, 'rejected_evidence_not_in_text': 0, 'rejected_non_skill': 2, 'fallback_used': False, 'fallback_reason': '', 'merged_from_rules': 4}",
+          "覆盖情况：{'total': 12, 'hit_rate': 0.0833, 'partial_rate': 0.0833, 'missing_rate': 0.8333, 'must_hit_rate': 0.0833}"
+        ],
+        "started_at": "2026-10-21 03:28:52",
+        "elapsed_ms": 13300.78
+      }
+    },
+    {
+      "resume": "简历202607-评测后训练-有联",
+      "report_path": "experiments\\results\\demo\\demo_2008789833664847872_简历202607-评测后训练-有联.md",
+      "requirements": 12,
+      "matches": 12,
+      "hit": 0,
+      "partial": 0,
+      "missing": 12,
+      "gaps": 12,
+      "rewrites": 15,
+      "questions": 8,
+      "trace": "traces\\run_20261021-032905_0c29b013.jsonl",
+      "json": {
+        "jd_path": "data\\jds\\2008789833664847872.json",
+        "resume_path": "data\\resumes\\简历202607-评测后训练-有联.md",
+        "jd_title": "",
+        "requirements": [
+          {
+            "skill": "Agent",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Agent",
+            "detail": "AI Agent 业务模块研发与 Agent 编排"
+          },
+          {
+            "skill": "AIGC",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "llm",
+            "raw": "AIGC",
+            "detail": "AIGC 工具业务模块"
+          },
+          {
+            "skill": "模型接入",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "模型接入",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "任务编排",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "llm",
+            "raw": "任务编排",
+            "detail": "AI 服务通用能力建设"
+          },
+          {
+            "skill": "部署发布",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "llm",
+            "raw": "部署发布",
+            "detail": "线上稳定性建设"
+          },
+          {
+            "skill": "服务端架构",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "llm",
+            "raw": "服务端架构",
+            "detail": "常用服务端架构"
+          },
+          {
+            "skill": "Prompt工程",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "Prompt工程",
+            "detail": "Prompt 设计"
+          },
+          {
+            "skill": "RAG",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "llm",
+            "raw": "RAG",
+            "detail": "RAG 检索增强"
+          },
+          {
+            "skill": "工程化",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule_fallback",
+            "raw": "工程化",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "服务端开发",
+            "category": "工程",
+            "importance": "必须",
+            "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule_fallback",
+            "raw": "后台开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "AI应用开发",
+            "category": "算法",
+            "importance": "必须",
+            "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule_fallback",
+            "raw": "大模型应用开发",
+            "detail": "规则兜底命中"
+          },
+          {
+            "skill": "游戏",
+            "category": "业务",
+            "importance": "必须",
+            "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule_fallback",
+            "raw": "游戏",
+            "detail": "规则兜底命中"
+          }
+        ],
+        "resume_profile": {
+          "items": [
+            {
+              "title": "候选人",
+              "section": "其他",
+              "lines": [
+                "华中科技大学 软件工程 本硕 | 求职：大模型评测/后训练工程师 | 武汉",
+                "男 | 25岁"
+              ]
+            },
+            {
+              "title": "华中科技大学软件工程本硕。具备 NLP/LLM 全链路实战经验，独立设计过多维度模型评估体系（精确率/召回率/F1/混淆矩阵/错误案例分析），集成 SwanLab 实验管理平台实现自动化评估管线。硕士课题中独立设计了量化对比实验体系，以边界对齐误差、过刻率、欠刻率为核心指标，用数据驱动算法迭代。同时具备 SFT/DPO 后训练实操经验——LoRA 微调 Qwen 并完成 checkpoint 部署。能力覆盖 评测体系设计 → 自动化 Eval Pipeline → 模型失败归因 全流程。",
+              "section": "个人优势",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 硕士\t2022 - 2026",
+              "section": "教育经历",
+              "lines": []
+            },
+            {
+              "title": "华中科技大学\t软件工程 本科\t2018 - 2022",
+              "section": "教育经历",
+              "lines": [
+                "核心竞争力",
+                "模型评估与指标体系",
+                "独立设计多维度评估体系：P/R/F1/混淆矩阵/错误分析，覆盖分类任务全指标",
+                "集成 SwanLab 实验管理平台，实现批量测试、自动打分、可视化报告一键生成",
+                "建立 Failure Taxonomy：对分类错误按混淆类别归因分析，定位模型短板并反哺训练迭代",
+                "硕士课题设计 5 类工业纹理量化对比实验，以边界对齐误差/过刻率/欠刻率为核心指标",
+                "理解 LLM 评测框架：LLM-as-a-Judge、A/B 测试、ELO 排名、Perplexity 评估",
+                "后训练（SFT / DPO / LoRA）",
+                "使用 LoRA（r=8, α=16）微调 Qwen 模型，完成 SFT 监督微调全流程（数据构建→训练→部署）",
+                "从零实现 DPO（Direct Preference Optimization），理解 reward model vs policy model 训练范式",
+                "掌握后训练三阶段链路：预训练→SFT→RLHF/DPO，能独立完成领域微调到推理部署的闭环",
+                "技术栈：PyTorch、Transformers、PEFT/LoRA、HuggingFace"
+              ]
+            },
+            {
+              "title": "NLP 全链路文本分类 — 含自动化评估体系 | 独立开发\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "从零搭建 NLP 全链路：语料处理→词向量训练（CBOW/Skip-gram）→BERT/Qwen 微调→多维度评估",
+                "设计自动化评估管线：P/R/F1/混淆矩阵/错误案例分析，集成 SwanLab 实验管理，支持批量测试与可视化",
+                "纯 PyTorch 代码实现。支持动态负采样、多窗口对比、多轮超参网格搜索",
+                "技术栈：Python、PyTorch、Transformers、SwanLab"
+              ]
+            },
+            {
+              "title": "激光刻蚀网格重构 — 量化实验评估体系 | 核心算法研发\t2024.09 - 2026.04",
+              "section": "项目经历",
+              "lines": [
+                "提出自适应网格重构算法（论文盲审+答辩一次通过），设计 5 类工业纹理的量化对比实验",
+                "以边界对齐误差（降至 1.2px）、过刻率、欠刻率为核心评估指标，与主流方法系统对比",
+                "重构 FSRCNN 超分网络：边缘保持指数 0.72→0.85，几何匹配度提升 12%",
+                "技术栈：Python、PyTorch、NumPy、Open3D"
+              ]
+            },
+            {
+              "title": "Restyle — AI 发型试戴 App（黑客松） | 产品设计\t2026.07",
+              "section": "项目经历",
+              "lines": [
+                "48 小时黑客松，AI 辅助开发（Codex），从零交付 AI Native App，面向海外发布",
+                "技术栈：SwiftUI、AI 辅助开发（Codex）"
+              ]
+            },
+            {
+              "title": "模型评估：P/R/F1/混淆矩阵/错误归因、SwanLab、LLM-as-a-Judge、ELO排名、Perplexity",
+              "section": "专业技能",
+              "lines": [
+                "后训练：SFT、DPO、LoRA/QLoRA、PEFT、HuggingFace Transformers",
+                "编程语言：Python（熟练）、Java（熟练）、SQL",
+                "工具：Git、Linux、SwanLab 实验管理"
+              ]
+            },
+            {
+              "title": "大学英语六级（CET-6）",
+              "section": "资格证书",
+              "lines": []
+            }
+          ],
+          "skills": [
+            {
+              "skill": "PyTorch",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、Transformers、PEFT/LoRA、HuggingFace",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformers",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、Transformers、PEFT/LoRA、HuggingFace",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "PEFT/LoRA",
+              "category": "框架",
+              "evidence": "技术栈：PyTorch、Transformers、PEFT/LoRA、HuggingFace",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Transformer",
+              "category": "算法",
+              "evidence": "技术栈：PyTorch、Transformers、PEFT/LoRA、HuggingFace",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Python",
+              "category": "语言",
+              "evidence": "技术栈：Python、PyTorch、Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "MLflow",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、Transformers、SwanLab",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NumPy",
+              "category": "框架",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "三维重建",
+              "category": "算法",
+              "evidence": "技术栈：Python、PyTorch、NumPy、Open3D",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Swift",
+              "category": "语言",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "AI开发工具",
+              "category": "工程",
+              "evidence": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "LLM微调",
+              "category": "算法",
+              "evidence": "后训练：SFT、DPO、LoRA/QLoRA、PEFT、HuggingFace Transformers",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "DPO",
+              "category": "算法",
+              "evidence": "后训练：SFT、DPO、LoRA/QLoRA、PEFT、HuggingFace Transformers",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "后训练",
+              "category": "算法",
+              "evidence": "后训练：SFT、DPO、LoRA/QLoRA、PEFT、HuggingFace Transformers",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Java",
+              "category": "语言",
+              "evidence": "编程语言：Python（熟练）、Java（熟练）、SQL",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "SQL",
+              "category": "语言",
+              "evidence": "编程语言：Python（熟练）、Java（熟练）、SQL",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Git",
+              "category": "工程",
+              "evidence": "工具：Git、Linux、SwanLab 实验管理",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "Linux",
+              "category": "工程",
+              "evidence": "工具：Git、Linux、SwanLab 实验管理",
+              "section": "专业技能",
+              "source": "rule"
+            },
+            {
+              "skill": "大模型评测",
+              "category": "业务",
+              "evidence": "华中科技大学 软件工程 本硕 | 求职：大模型评测/后训练工程师 | 武汉",
+              "section": "其他",
+              "source": "rule"
+            },
+            {
+              "skill": "模型评估",
+              "category": "算法",
+              "evidence": "模型评估与指标体系",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "评测指标体系",
+              "category": "业务",
+              "evidence": "模型评估与指标体系",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "文本分类",
+              "category": "算法",
+              "evidence": "独立设计多维度评估体系：P/R/F1/混淆矩阵/错误分析，覆盖分类任务全指标",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "自动化评测",
+              "category": "工程",
+              "evidence": "集成 SwanLab 实验管理平台，实现批量测试、自动打分、可视化报告一键生成",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "部署",
+              "category": "工程",
+              "evidence": "使用 LoRA（r=8, α=16）微调 Qwen 模型，完成 SFT 监督微调全流程（数据构建→训练→部署）",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "社交",
+              "category": "业务",
+              "evidence": "从零实现 DPO（Direct Preference Optimization），理解 reward model vs policy model 训练范式",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "模型部署",
+              "category": "工程",
+              "evidence": "掌握后训练三阶段链路：预训练→SFT→RLHF/DPO，能独立完成领域微调到推理部署的闭环",
+              "section": "教育经历",
+              "source": "rule"
+            },
+            {
+              "skill": "Word2Vec",
+              "category": "算法",
+              "evidence": "从零搭建 NLP 全链路：语料处理→词向量训练（CBOW/Skip-gram）→BERT/Qwen 微调→多维度评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "BERT",
+              "category": "算法",
+              "evidence": "从零搭建 NLP 全链路：语料处理→词向量训练（CBOW/Skip-gram）→BERT/Qwen 微调→多维度评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "NLP",
+              "category": "算法",
+              "evidence": "从零搭建 NLP 全链路：语料处理→词向量训练（CBOW/Skip-gram）→BERT/Qwen 微调→多维度评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "数据标注",
+              "category": "业务",
+              "evidence": "从零搭建 NLP 全链路：语料处理→词向量训练（CBOW/Skip-gram）→BERT/Qwen 微调→多维度评估",
+              "section": "项目经历",
+              "source": "rule"
+            },
+            {
+              "skill": "图像超分辨率",
+              "category": "算法",
+              "evidence": "重构 FSRCNN 超分网络：边缘保持指数 0.72→0.85，几何匹配度提升 12%",
+              "section": "项目经历",
+              "source": "rule"
+            }
+          ],
+          "raw_line_count": 41,
+          "source_path": "data\\resumes\\简历202607-评测后训练-有联.md",
+          "source_format": "md"
+        },
+        "matches": [
+          {
+            "requirement": {
+              "skill": "Agent",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Agent",
+              "detail": "AI Agent 业务模块研发与 Agent 编排"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "AIGC",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+              "source": "llm",
+              "raw": "AIGC",
+              "detail": "AIGC 工具业务模块"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "模型接入",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "模型接入",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "任务编排",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+              "source": "llm",
+              "raw": "任务编排",
+              "detail": "AI 服务通用能力建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "部署发布",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "llm",
+              "raw": "部署发布",
+              "detail": "线上稳定性建设"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端架构",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "llm",
+              "raw": "服务端架构",
+              "detail": "常用服务端架构"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "Prompt工程",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "Prompt工程",
+              "detail": "Prompt 设计"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "RAG",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "llm",
+              "raw": "RAG",
+              "detail": "RAG 检索增强"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "工程化",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+              "source": "rule_fallback",
+              "raw": "工程化",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "服务端开发",
+              "category": "工程",
+              "importance": "必须",
+              "evidence": "具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+              "source": "rule_fallback",
+              "raw": "后台开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "AI应用开发",
+              "category": "算法",
+              "importance": "必须",
+              "evidence": "了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+              "source": "rule_fallback",
+              "raw": "大模型应用开发",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          },
+          {
+            "requirement": {
+              "skill": "游戏",
+              "category": "业务",
+              "importance": "必须",
+              "evidence": "具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+              "source": "rule_fallback",
+              "raw": "游戏",
+              "detail": "规则兜底命中"
+            },
+            "status": "缺失",
+            "evidence": "",
+            "evidence_section": "",
+            "note": "简历中未出现该技能的任何痕迹"
+          }
+        ],
+        "gaps": [
+          {
+            "skill": "AIGC",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AIGC 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「AIGC」（必须），简历中缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "kind": "gap"
+          },
+          {
+            "skill": "AI应用开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 AI应用开发 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 AI应用开发 做 X」无法支撑追问",
+            "rationale": "JD 要求「AI应用开发」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Agent",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Agent 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Agent 做 X」无法支撑追问",
+            "rationale": "JD 要求「Agent」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "Prompt工程",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 Prompt工程 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 Prompt工程 做 X」无法支撑追问",
+            "rationale": "JD 要求「Prompt工程」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "RAG",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 RAG 的**方法级描述**（用了哪个模型/损失/采样策略、为什么选它），并给出效果数字；只写「用 RAG 做 X」无法支撑追问",
+            "rationale": "JD 要求「RAG」（必须），简历中缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "kind": "gap"
+          },
+          {
+            "skill": "任务编排",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 任务编排 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「任务编排」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "工程化",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 工程化 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「工程化」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端开发",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端开发 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端开发」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "服务端架构",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 服务端架构 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「服务端架构」（必须），简历中缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "kind": "gap"
+          },
+          {
+            "skill": "模型接入",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 模型接入 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「模型接入」（必须），简历中缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "kind": "gap"
+          },
+          {
+            "skill": "游戏",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 游戏 的**业务落点**：数据从哪来、怎么用、影响什么指标或用户量；面试官关心的是业务判断不是工具名",
+            "rationale": "JD 要求「游戏」（必须），简历中缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "kind": "gap"
+          },
+          {
+            "skill": "部署发布",
+            "importance": "必须",
+            "priority": 3.0,
+            "action": "在简历里补一条 部署发布 的**规模数字**：并发数 / 数据量 / 时延 / 部署次数 / 服务规模，没有数字的工程经历在面试里基本等于没写",
+            "rationale": "JD 要求「部署发布」（必须），简历中缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "kind": "gap"
+          }
+        ],
+        "rewrites": [
+          {
+            "skill": "Agent",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Agent 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Agent」无法支撑追问",
+            "reason": "JD 要求「Agent」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "AIGC",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「AIGC」（必须），当前缺失。JD 原文：负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块；",
+            "source": "rule"
+          },
+          {
+            "skill": "模型接入",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「模型接入」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "任务编排",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「任务编排」（必须），当前缺失。JD 原文：参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等；",
+            "source": "rule"
+          },
+          {
+            "skill": "部署发布",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「部署发布」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端架构",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端架构」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "Prompt工程",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 Prompt工程 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 Prompt工程」无法支撑追问",
+            "reason": "JD 要求「Prompt工程」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "RAG",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 RAG 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 RAG」无法支撑追问",
+            "reason": "JD 要求「RAG」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "工程化",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「工程化」（必须），当前缺失。JD 原文：负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
+            "source": "rule"
+          },
+          {
+            "skill": "服务端开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把工程经历里的名词换成带规模的描述，句式：「负责 X 的 Y 环节，支撑 Z 并发/数据量/时延，通过 A 手段把 B 指标优化 C%」",
+            "reason": "JD 要求「服务端开发」（必须），当前缺失。JD 原文：具备良好的后台开发能力，了解常用服务端架构、存储与中间件技术，有较好的工程实现能力；",
+            "source": "rule"
+          },
+          {
+            "skill": "AI应用开发",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "把算法名词升级成方法级描述，句式：「用 AI应用开发 的 X 方法解决 Y 问题，相比基线 Z 提升 N%」——只写「用了 AI应用开发」无法支撑追问",
+            "reason": "JD 要求「AI应用开发」（必须），当前缺失。JD 原文：了解大模型应用开发，熟悉 Prompt 设计、RAG 检索增强、Agent 编排、工具调用等常见技术，有相关项目经验优先；",
+            "source": "rule"
+          },
+          {
+            "skill": "游戏",
+            "target": "简历「专业技能」或对应项目条目的技术栈行",
+            "before": "",
+            "after": "给技术描述补上业务落点，句式：「用 X 解决 Y 业务问题（数据来源/规模），最终影响 Z 指标/用户量」",
+            "reason": "JD 要求「游戏」（必须），当前缺失。JD 原文：具备良好的问题拆解、沟通协作和学习能力，对 AI 与游戏结合有热情。",
+            "source": "rule"
+          },
+          {
+            "skill": "",
+            "target": "简历「教育经历」段落",
+            "before": "独立设计多维度评估体系：P/R/F1/混淆矩阵/错误分析，覆盖分类任务全指标",
+            "after": "独立设计多维度评估体系：P/R/F1/混淆矩阵/错误分析，覆盖分类任务全指标——补上你具体做的动作、用的工具、产出的结果数字",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "PyTorch",
+            "target": "简历「项目经历」段落",
+            "before": "纯 PyTorch 代码实现。支持动态负采样、多窗口对比、多轮超参网格搜索",
+            "after": "在 PyTorch 相关工作中，具体负责「纯 PyTorch 代码实现。支持动态负采样、多窗口对比、多轮超参网格搜索」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          },
+          {
+            "skill": "Swift",
+            "target": "简历「项目经历」段落",
+            "before": "技术栈：SwiftUI、AI 辅助开发（Codex）",
+            "after": "在 Swift 相关工作中，具体负责「技术栈：SwiftUI、AI 辅助开发（Codex）」这一环，输入是 X / 输出是 Y，最终把 Z 指标从 A 提升到 B",
+            "reason": "该句只有弱表述（了解/熟悉/负责/参与）且无量化结果，面试里撑不住追问",
+            "source": "rule"
+          }
+        ],
+        "questions": [
+          {
+            "question": "JD 要求 Agent。你没有相关项目经验的话，能不能说一个你自学 Agent 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Agent",
+            "reason": "JD 必须项「Agent」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 AIGC 方向。你在过往项目里有没有接触过类似的业务问题？你会怎么把现有经验迁移过来？",
+            "category": "业务",
+            "target_skill": "AIGC",
+            "reason": "JD 必须项「AIGC」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 模型接入。你做过的最接近 模型接入 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "模型接入",
+            "reason": "JD 必须项「模型接入」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 任务编排。你做过的最接近 任务编排 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "任务编排",
+            "reason": "JD 必须项「任务编排」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 部署发布。你做过的最接近 部署发布 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "部署发布",
+            "reason": "JD 必须项「部署发布」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 服务端架构。你做过的最接近 服务端架构 的工程实践是什么？当时规模多大、你怎么保证不出问题？",
+            "category": "工程",
+            "target_skill": "服务端架构",
+            "reason": "JD 必须项「服务端架构」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 Prompt工程。你没有相关项目经验的话，能不能说一个你自学 Prompt工程 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "Prompt工程",
+            "reason": "JD 必须项「Prompt工程」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          },
+          {
+            "question": "JD 要求 RAG。你没有相关项目经验的话，能不能说一个你自学 RAG 时做过的实验/复现，以及你从中得到的判断？",
+            "category": "算法",
+            "target_skill": "RAG",
+            "reason": "JD 必须项「RAG」在简历中完全缺失，属于整块能力空白",
+            "risk": "高",
+            "priority": 3.0
+          }
+        ],
+        "llm_usage": {
+          "backend": "deepseek",
+          "calls": 4,
+          "prompt_tokens": 3872,
+          "completion_tokens": 2803,
+          "cost_usd": 0.002263,
+          "price_known": true,
+          "errors": []
+        },
+        "trace": {
+          "path": "traces\\run_20261021-032905_0c29b013.jsonl",
+          "steps": 6,
+          "events": {
+            "run_start": 1,
+            "mcp_connected": 1,
+            "mcp_load": 2,
+            "step_start": 6,
+            "step_end": 6
+          },
+          "tool_calls": 2,
+          "tool_failures": 0,
+          "tool_degraded": 0,
+          "note": "每一步的输入输出都落在这条 JSONL 里，可 grep 可回放"
+        },
+        "fallback_ratios": {
+          "jd_extraction_rule_fallback": 0.3333
+        },
+        "notes": [
+          "JD 抽取：{'llm_returned': 10, 'llm_kept': 8, 'rejected_unknown_skill': 0, 'rejected_bad_importance': 0, 'rejected_no_evidence': 0, 'rejected_evidence_not_in_text': 0, 'rejected_non_skill': 2, 'fallback_used': False, 'fallback_reason': '', 'merged_from_rules': 4}",
+          "覆盖情况：{'total': 12, 'hit_rate': 0.0, 'partial_rate': 0.0, 'missing_rate': 1.0, 'must_hit_rate': 0.0}"
+        ],
+        "started_at": "2026-10-21 03:29:05",
+        "elapsed_ms": 13885.09
+      }
+    }
+  ]
+}

@@ -158,8 +158,8 @@ class JobFitPipeline:
             use_mcp=self.use_mcp,
         )
         report = AnalysisReport(
-            jd_path=str(jd_path),
-            resume_path=str(resume_path),
+            jd_path=self._rel(jd_path),
+            resume_path=self._rel(resume_path),
             started_at=time.strftime("%Y-%m-%d %H:%M:%S"),
         )
 
@@ -189,7 +189,7 @@ class JobFitPipeline:
             # ---- 步骤 2：简历解析 ----
             self.tracer.next_step()
             self.tracer.event("step_start", step_name="parse_resume")
-            profile = parse_resume(resume_path)
+            profile = parse_resume(resume_path, source_path_label=self._rel(resume_path))
             report.resume_profile = profile
             self.tracer.event(
                 "step_end",
@@ -252,6 +252,20 @@ class JobFitPipeline:
         return report
 
     # ---------------------------------------------------------------- 内部
+
+    def _rel(self, path: Any) -> str:
+        """把路径转成**仓库相对路径**（提交物里不能出现绝对路径）。
+
+        仓库根 = jobfit/ 的上一级。用 relative_to 时若不在仓库内（例如临时目录），
+        就退回只留文件名——绝对路径同样不能进提交物。
+        """
+        from pathlib import Path as _Path
+
+        root = Path(__file__).resolve().parent.parent
+        try:
+            return str(_Path(str(path)).resolve().relative_to(root))
+        except (ValueError, OSError):
+            return _Path(str(path)).name
 
     def _read_text(self, path: str | Path) -> str:
         """读 JD 文件（.json 也支持——评测集里的 JD 是 JSON）。"""
@@ -369,7 +383,7 @@ class JobFitPipeline:
             key = str(event.get("type"))
             counts[key] = counts.get(key, 0) + 1
         return TraceRef(
-            path=str(getattr(self.tracer, "path", "")),
+            path=self._rel(getattr(self.tracer, "path", "")),
             steps=int(getattr(self.tracer, "step", 0)),
             events=counts,
             tool_calls=counts.get("mcp_load", 0) + counts.get("mcp_evidence_found", 0),

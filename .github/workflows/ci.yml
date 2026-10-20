@@ -1,0 +1,101 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: pytest（三个地基仓库一起 checkout）
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: job-fit-assistant
+
+      # ★ 三个兄弟仓库 checkout 到**同一父目录**——
+      #   这正是 README「目录约定」里写的布局：
+      #     <parent>/job-fit-assistant
+      #     <parent>/hello-agent
+      #     <parent>/rag-mcp-server
+      #     <parent>/rag-eval-platform
+      #   jobfit/siblings.py 按这个约定找到它们并 import 它们的类。
+      #   （少了这一步，检索与 trace 能力会降级，测试仍会跑但覆盖不到组合路径）
+      - name: Checkout hello-agent
+        uses: actions/checkout@v4
+        with:
+          repository: world-breaker/hello-agent
+          path: hello-agent
+
+      - name: Checkout rag-mcp-server
+        uses: actions/checkout@v4
+        with:
+          repository: world-breaker/rag-mcp-server
+          path: rag-mcp-server
+
+      - name: Checkout rag-eval-platform
+        uses: actions/checkout@v4
+        with:
+          repository: world-breaker/rag-eval-platform
+          path: rag-eval-platform
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: |
+          cd job-fit-assistant
+          python -m pip install --upgrade pip
+          pip install -e ".[dev,docx,mcp,siblings]"
+
+      - name: 环境自检（兄弟仓库是否就绪）
+        run: |
+          cd job-fit-assistant
+          python -m jobfit doctor || true
+
+      - name: 跑测试
+        run: |
+          cd job-fit-assistant
+          pytest -q
+
+      - name: 纯规则档端到端冒烟（不调 API、不需要 key）
+        run: |
+          cd job-fit-assistant
+          python -m jobfit analyze \
+            --jd data/jds/authored_nlp_classification.json \
+            --resume "data/resumes/简历202607-AI工程.md" \
+            --llm none \
+            --no-mcp \
+            --format md \
+            --out /tmp/jobfit-smoke.md
+          test -s /tmp/jobfit-smoke.md
+          grep -q "匹配分析" /tmp/jobfit-smoke.md
+
+      - name: README 数字与结果文件一致
+        # README 只引用 experiments/results/ 下的数字。
+        # 结果文件更新了而 README 没改 → README 在说谎，且没人会发现。
+        # 这个脚本把两者对上，对不上就报错。
+        run: |
+          cd job-fit-assistant
+          python scripts/check_doc_numbers.py
+
+  privacy:
+    name: 隐私自证（敏感串 / 绝对路径 / 私密文件）
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: job-fit-assistant
+          fetch-depth: 0
+
+      - name: 隐私三项自证
+        working-directory: job-fit-assistant
+        run: bash scripts/privacy_check.sh

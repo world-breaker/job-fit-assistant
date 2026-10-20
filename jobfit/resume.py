@@ -164,12 +164,16 @@ def _split_items(section: str, lines: List[str]) -> List[ResumeItem]:
     return items
 
 
-def parse_resume(path: str | Path) -> ResumeProfile:
-    """解析简历 → 结构化结果。"""
+def parse_resume(path: str | Path, source_path_label: str = "") -> ResumeProfile:
+    """解析简历 → 结构化结果。
+
+    `source_path_label`：写进结果的路径标签。**默认留空**——
+    提交物里不能出现绝对路径（评测结果要入库），调用方可以传相对路径。
+    """
     lines, fmt = read_lines(path)
     profile = ResumeProfile(
         raw_lines=[line for line in lines if line.strip()],
-        source_path=str(path),
+        source_path=source_path_label,
         source_format=fmt,
     )
 
