@@ -1,0 +1,45 @@
+[project]
+name = "job-fit-assistant"
+version = "0.1.0"
+description = "求职助手：JD 技能要求抽取 → 简历解析 → 匹配分析 → 差距建议 → 改写建议 → 预测面试题"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+# 运行依赖说明（分层）：
+# - 核心功能（规则路径 + CLI + HTTP）**零第三方依赖**（只用标准库）；
+# - 下面是「可选增强」的依赖，装了才有对应能力，不装则自动降级。
+dependencies = []
+
+[project.optional-dependencies]
+# LLM 后端：DeepSeek 走标准库 urllib（不需要 openai SDK）；
+# 本机离线模型（Qwen2.5-1.5B-Instruct）需要 transformers + torch。
+llm = ["transformers>=4.40", "torch>=2.0"]
+# .docx 解析需要 python-docx（PDF 解析可选 pypdf）
+docx = ["python-docx>=1.1"]
+pdf = ["pypdf>=4.0"]
+# MCP 服务端（stdio）
+mcp = ["mcp>=2.0,<3.0"]
+# 三个地基仓库的运行时依赖（hello-agent / rag-mcp-server）
+siblings = [
+    "langchain-core>=1.6",
+    "langgraph>=1.2",
+    "sentence-transformers>=5.0",
+]
+# 开发
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+jobfit = "jobfit.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["jobfit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

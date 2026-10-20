@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# 模型缓存与向量缓存（不入库：体积大、可复现生成）
+.cache/
+*.npy
+
+# trace 产物（每次运行都新生成，不入库）
+traces/
+
+# 评测结果：只入库 experiments/results/ 下由脚本产出的正式结果，
+# 这里排除临时/本地文件
+experiments/**/*.local.*
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统
+Thumbs.db
+.DS_Store

@@ -1,0 +1,9 @@
+# 默认按文本处理，检出时统一 LF（跨平台协作时不让行尾噪声淹没真实 diff）
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+*.npy binary
