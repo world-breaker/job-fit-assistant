@@ -59,6 +59,58 @@ def expected_numbers() -> List[Tuple[str, str]]:
     ]
 
 
+#: **带语境的关键断言**：只验「README 里含有这个数」是不够的 ——
+#:   2026-10-21 实测踩过：README 写「124 条「命中」结论」，而结果文件是 123；
+#:   旧校验只查「123 是否出现在 README 某处」（它在表格里出现过 → 蒙混过关），
+#:   于是**错误数字被放行**。所以对这几个关键数字改成**带语境的正则**：
+#:   数字必须出现在它该在的那句话里。
+CONTEXT_ASSERTIONS = [
+    ("命中结论总数", r"(\d+)\s*条「?命中」?结论"),
+    ("假绿次数", r"假绿[^。；\n]{0,6}?(\d+)\s*次"),
+    # README 原文：`- **9 / 12** 份 JD 推荐正确（准确率 0.75）`（数字带 markdown 粗体）
+    ("端到端正确", r"\*\*(\d+)\s*/\s*(\d+)\*\*\s*份\s*JD\s*推荐正确"),
+    # README 原文：`- 两项都对：**151** 条 → **正确率 100%**`
+    ("证据正确数", r"两项都对：\*\*(\d+)\*\*\s*条"),
+    # README 原文：`| 系统（LLM + 规则兜底） | 0.7829 | 0.9182 | **0.8452** | ...`
+    #   → 表格里第 3 列才是 F1（第 1 列 P、第 2 列 R），所以显式跳过前两列再捕获第 3 列
+    ("系统 micro F1", r"系统（LLM \+ 规则兜底）\s*\|\s*[0-9.]+\s*\|\s*[0-9.]+\s*\|\s*\*{0,2}([0-9.]+)"),
+]
+
+
+def context_failures(readme: str) -> List[str]:
+    """带语境的数字断言：把 README 里对应句子里的数字抓出来，和结果文件比。"""
+    data = json.loads(RESULTS.read_text(encoding="utf-8"))
+    m1 = data["metric_1_extraction"]
+    m2 = data["metric_2_evidence_localization"]
+    m3 = data["metric_3_end_to_end_resume_recommendation"]
+    m4 = data["metric_4_false_green"]
+    want = {
+        "命中结论总数": [(str(m4["total_hit_conclusions"]),)],
+        "假绿次数": [(str(m4["count"]),)],
+        "端到端正确": [(str(m3["correct"]), str(m3["jd_count"]))],
+        "证据正确数": [(str(m2["both_correct"]),)],
+        "系统 micro F1": [(f"{m1['system_llm_plus_fallback']['micro']['f1']:.4f}",)],
+    }
+    bad: List[str] = []
+    for label, pattern in CONTEXT_ASSERTIONS:
+        m = re.search(pattern, readme)
+        if not m:
+            bad.append(f"{label}: README 里找不到带语境的断言（正则 {pattern}）")
+            continue
+        got = tuple(g for g in m.groups() if g is not None)
+        for expect in want.get(label, []):
+            for e, g in zip(expect, got):
+                if e != g:
+                    bad.append(f"{label}: README 语境里写的是 {g}，结果文件是 {e}")
+    # 顺便：系统 micro F1 也做一次语境校验（表里那一行）
+    m = re.search(r"系统（LLM \+ 规则兜底）\s*\|\s*([0-9.]+)", readme)
+    if m:
+        want_f1 = f"{m1['system_llm_plus_fallback']['micro']['f1']:.4f}"
+        if m.group(1) != want_f1:
+            bad.append(f"系统 micro F1: README 写 {m.group(1)}，结果文件 {want_f1}")
+    return bad
+
+
 def demo_numbers() -> List[Tuple[str, str]]:
     """Demo 报告里的数字（README 的 demo 表格引用它们）。
 
@@ -98,14 +150,23 @@ def main() -> int:
         if value not in readme:
             missing.append(f"{label}: {value}")
 
-    print(f"核对 {len(numbers)} 个数字（来源：experiments/results/）")
-    if missing:
-        print("\n❌ README 里没有这些值（或值已过期）：")
-        for item in missing:
-            print(f"   - {item}")
+    # 带语境的关键断言（数字必须出现在它该在的那句话里）
+    ctx_bad = context_failures(readme)
+
+    print(f"核对 {len(numbers)} 个数字 + {len(CONTEXT_ASSERTIONS)} 条语境断言"
+          f"（来源：experiments/results/）")
+    if missing or ctx_bad:
+        if missing:
+            print("\n❌ README 里没有这些值（或值已过期）：")
+            for item in missing:
+                print(f"   - {item}")
+        if ctx_bad:
+            print("\n❌ 带语境的数字对不上（同一个数出现在别处不算数）：")
+            for item in ctx_bad:
+                print(f"   - {item}")
         return 1
 
-    print("✅ README 的数字与结果文件一致")
+    print("✅ README 的数字与结果文件一致（含语境断言）")
     return 0
 
 
