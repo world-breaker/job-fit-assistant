@@ -1,0 +1,98 @@
+{
+  "id": "authored_java_fintech",
+  "title": "金融科技-Java后端开发工程师（自写变体）",
+  "source_type": "authored_variant",
+  "source_site": "自写变体（本项目作者撰写，非真实 JD）",
+  "source_url": "",
+  "fetched_at": "",
+  "location": "",
+  "category": "技术",
+  "expected_resume": "java_backend",
+  "raw_text": "1.负责支付清结算核心系统的设计、开发与上线，支撑日均千万级交易；\n2.参与交易链路的风控能力建设，包含限额、鉴权、异常交易检测；\n3.负责系统性能与稳定性治理，推动核心链路持续演进。\n1.熟练掌握 Java，熟悉 JVM 内存模型与并发编程；\n2.熟练使用 Spring Boot 与 Spring Cloud 开发微服务，理解服务治理与分布式事务；\n3.熟悉 MySQL 索引优化与分库分表，了解 Redis 缓存设计与一致性；\n4.有 Kafka 消息队列实践，了解消息可靠投递与消费幂等；\n5.有高并发分布式系统设计经验，能独立定位线上问题；\n6.有金融支付或风控相关系统开发经验者优先。",
+  "annotations": {
+    "rubric": {
+      "什么算一条要求": "JD 里明确写出的「技能/技术/工具/方法/能力」，且是该岗位要招人具备的东西。排除：学历与年限要求、软素质（沟通/责任心/学习能力）、纯岗位职责里的业务描述、薪酬福利。",
+      "重要度判定": {
+        "必须": "原文出现 精通/熟练掌握/扎实/深入理解/具备…经验/至少… 等硬性表述，或写在任职要求里的无条件句。",
+        "加分": "原文出现 优先/加分/更佳/有兴趣/…者优先。",
+        "两者都有": "「熟悉 X，有 Y 经验者优先」这类 → 判「必须」（硬性条件在前）。"
+      },
+      "技能名归一化": "用 jobfit.normalize 的口径：先查技能词表映射到规范名，复合短语（如「高并发、高可靠海量服务开发」）拆成单个技术名词。这样 LLM 抽取、规则抽取、人工标注三方能对齐到同一集合上。",
+      "原文证据": "必须是 JD 原文的逐字片段；build 脚本会校验，定位不到直接报错。",
+      "标注者": "本项目作者（一人标注，未做多人交叉验证——这是本评测的已知边界）",
+      "已知偏差": "单人标注、无第二标注者复核；「重要度」的边界案例（如「熟悉 X，有 Y 经验者优先」）按上文规则统一判为「必须」。评测报告里把这写成了边界，不当结论用。"
+    },
+    "requirements": [
+      {
+        "skill": "Java",
+        "category": "语言",
+        "importance": "必须",
+        "evidence": "1.熟练掌握 Java，熟悉 JVM 内存模型与并发编程；",
+        "anchor": "熟练掌握 Java"
+      },
+      {
+        "skill": "Spring Boot",
+        "category": "框架",
+        "importance": "必须",
+        "evidence": "2.熟练使用 Spring Boot 与 Spring Cloud 开发微服务，理解服务治理与分布式事务；",
+        "anchor": "熟练使用 Spring Boot 与 Spring Cloud 开发微服务"
+      },
+      {
+        "skill": "MySQL",
+        "category": "框架",
+        "importance": "必须",
+        "evidence": "3.熟悉 MySQL 索引优化与分库分表，了解 Redis 缓存设计与一致性；",
+        "anchor": "熟悉 MySQL 索引优化与分库分表"
+      },
+      {
+        "skill": "Redis",
+        "category": "框架",
+        "importance": "必须",
+        "evidence": "3.熟悉 MySQL 索引优化与分库分表，了解 Redis 缓存设计与一致性；",
+        "anchor": "了解 Redis 缓存设计与一致性"
+      },
+      {
+        "skill": "Kafka",
+        "category": "框架",
+        "importance": "必须",
+        "evidence": "4.有 Kafka 消息队列实践，了解消息可靠投递与消费幂等；",
+        "anchor": "有 Kafka 消息队列实践"
+      },
+      {
+        "skill": "分布式系统",
+        "category": "工程",
+        "importance": "必须",
+        "evidence": "5.有高并发分布式系统设计经验，能独立定位线上问题；",
+        "anchor": "有高并发分布式系统设计经验"
+      },
+      {
+        "skill": "微服务",
+        "category": "工程",
+        "importance": "必须",
+        "evidence": "2.熟练使用 Spring Boot 与 Spring Cloud 开发微服务，理解服务治理与分布式事务；",
+        "anchor": "熟练使用 Spring Boot 与 Spring Cloud 开发微服务"
+      },
+      {
+        "skill": "高并发",
+        "category": "工程",
+        "importance": "必须",
+        "evidence": "5.有高并发分布式系统设计经验，能独立定位线上问题；",
+        "anchor": "有高并发分布式系统设计经验"
+      },
+      {
+        "skill": "金融科技",
+        "category": "业务",
+        "importance": "必须",
+        "evidence": "6.有金融支付或风控相关系统开发经验者优先。",
+        "anchor": "有金融支付或风控相关系统开发经验者优先"
+      },
+      {
+        "skill": "风控",
+        "category": "业务",
+        "importance": "加分",
+        "evidence": "6.有金融支付或风控相关系统开发经验者优先。",
+        "anchor": "有金融支付或风控相关系统开发经验者优先"
+      }
+    ]
+  }
+}

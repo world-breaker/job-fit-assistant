@@ -1,0 +1,121 @@
+{
+  "count": 12,
+  "public_real": 9,
+  "authored_variant": 3,
+  "resume_family": {
+    "简历202607-AI工程.md": "ai_engineering",
+    "简历202607-Java开发.md": "java_backend",
+    "简历202607-NLP算法.md": "nlp_algorithm",
+    "简历202607-评测后训练-有联.md": "eval_posttrain"
+  },
+  "items": [
+    {
+      "id": "2008789833664847872",
+      "title": "光子 AI-AI应用开发工程师",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2008789833664847872",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "ai_engineering",
+      "requirements": 13
+    },
+    {
+      "id": "2108081571104997376",
+      "title": "AI 应用开发高级工程师（深圳/北京）",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2108081571104997376",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "ai_engineering",
+      "requirements": 9
+    },
+    {
+      "id": "2098594908700061696",
+      "title": "云mall-java后端开发工程师-电商",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2098594908700061696",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "java_backend",
+      "requirements": 12
+    },
+    {
+      "id": "2089960263330742272",
+      "title": "营销与交易产品部-云mall高级Java后端开发工程师",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2089960263330742272",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "java_backend",
+      "requirements": 12
+    },
+    {
+      "id": "2092134938500579328",
+      "title": "搜狗输入法-NLP算法工程师",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2092134938500579328",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "nlp_algorithm",
+      "requirements": 14
+    },
+    {
+      "id": "2082710394723545088",
+      "title": "微信小程序-大模型算法工程师-Coding方向",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2082710394723545088",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "eval_posttrain",
+      "requirements": 8
+    },
+    {
+      "id": "2094265700456771584",
+      "title": "MaaS模型评测高级工程师",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2094265700456771584",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "eval_posttrain",
+      "requirements": 8
+    },
+    {
+      "id": "1915233782491881472",
+      "title": "混元大模型评测算法研究员（北京）",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=1915233782491881472",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "eval_posttrain",
+      "requirements": 9
+    },
+    {
+      "id": "2095418906612248576",
+      "title": "微信小程序-大模型算法工程师-智能体方向",
+      "source_type": "public_real",
+      "source_url": "http://careers.tencent.com/jobdesc.html?postId=2095418906612248576",
+      "fetched_at": "2026-10-21",
+      "expected_resume": "eval_posttrain",
+      "requirements": 7
+    },
+    {
+      "id": "authored_java_fintech",
+      "title": "金融科技-Java后端开发工程师（自写变体）",
+      "source_type": "authored_variant",
+      "source_url": "",
+      "fetched_at": "",
+      "expected_resume": "java_backend",
+      "requirements": 10
+    },
+    {
+      "id": "authored_nlp_classification",
+      "title": "文本智能-NLP算法工程师（自写变体）",
+      "source_type": "authored_variant",
+      "source_url": "",
+      "fetched_at": "",
+      "expected_resume": "nlp_algorithm",
+      "requirements": 9
+    },
+    {
+      "id": "authored_eval_platform",
+      "title": "大模型效果评测-评测平台工程师（自写变体）",
+      "source_type": "authored_variant",
+      "source_url": "",
+      "fetched_at": "",
+      "expected_resume": "eval_posttrain",
+      "requirements": 8
+    }
+  ]
+}
