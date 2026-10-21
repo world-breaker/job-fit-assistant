@@ -23,7 +23,7 @@ triggers:
   push:
     branches:
       prefix:
-        - 'master'
+        - 'main'
 
 stages:
   - name: stage-test
