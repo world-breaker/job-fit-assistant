@@ -1,0 +1,43 @@
+# Gitee Go 流水线（社区版：单仓 200 分钟免费构建时长，永久有效）
+#
+# 与 GitHub Actions **并存**：两边跑的是同一批命令、同一套口径。
+# README 顶部的徽章指向 GitHub；这份是「同一套门禁在 Gitee 上也真跑一遍」。
+#
+# ★ 三个坑（2026-10-21 实测）：
+#   1) Gitee Go 的 YAML **对大小写敏感**，节点名必须与官方文档完全一致
+#      （version / name / displayName / triggers / stages / steps / step / commands …）——
+#      写错**不会在文件里报错**，而是流水线直接不生效；
+#   2) 这个仓的 pyproject.toml 里 `addopts = "-q"`，再叠加命令行 `-q` 会变成 `-qq`，
+#      pytest 会**屏蔽汇总行**（只剩一排点、没有「N passed」）→ 用
+#      `--override-ini=addopts=` 只清 addopts，不动仓库文件；
+#   3) pip 走清华镜像：Gitee 的云端 runner 在国内，默认 PyPI 源很慢。
+version: '1.0'
+name: ci
+displayName: CI
+
+triggers:
+  trigger: auto
+  push:
+    branches:
+      prefix:
+        - 'master'
+
+stages:
+  - name: stage-test
+    displayName: 单元测试
+    strategy: naturally
+    trigger: auto
+    executor: []
+    steps:
+      - step: build@python
+        name: test_python
+        displayName: 单元测试（离线 · CPU · 零 API 调用）
+        pythonVersion: '3.12'
+        commands:
+          - 'pip install --upgrade pip'
+          - 'pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple'
+          - 'pip install "pytest>=8" python-docx'
+          - 'python -m pytest -q --override-ini=addopts='
+        notify: []
+        strategy:
+          retry: '0'
