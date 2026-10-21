@@ -1,0 +1,1037 @@
+{
+  "source_sheet": "data/jds/REVIEW_SHEET.md",
+  "jd_count": 12,
+  "auto_annotations": 119,
+  "human_filled": 0,
+  "human_unfilled": 119,
+  "verdicts": {
+    "未填": 119
+  },
+  "human_added": 0,
+  "per_jd": [
+    {
+      "id": "1915233782491881472",
+      "title": "混元大模型评测算法研究员（北京）",
+      "items": [
+        {
+          "n": 1,
+          "skill": "大模型评测",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "通用AI大模型评测基准的构建",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "多模态理解",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "建立覆盖文生文、多模态理解、多模态（音视频/3D/图/视频生成）生成等模态的评测基准",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "AIGC",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "建立覆盖文生文、多模态理解、多模态（音视频/3D/图/视频生成）生成等模态的评测基准",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "评测指标体系",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "设计全面、准确的多维度指标",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "自动化评测",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "构建自动化评测工具链",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "数据标注",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "构建领域增强型评测数据集生产链路",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "NLP",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "有主流深度学习模型的项目(CV/NLP/推荐/广告/RL等均可）实践落地经验优先",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "模型评估",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "有大模型调优化应用、评测经历者优先",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "机器学习",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "扎实的机器学习基础，能够熟练应用常用的机器学习模型解决实际的业务问题",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2008789833664847872",
+      "title": "光子 AI-AI应用开发工程师",
+      "items": [
+        {
+          "n": 1,
+          "skill": "后台开发",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备良好的后台开发能力",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "服务端架构",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "了解常用服务端架构、存储与中间件技术",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "Prompt设计",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟悉 Prompt 设计",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "RAG",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "RAG 检索增强",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "Agent",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "Agent 编排",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "工具调用",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "工具调用等常见技术",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "大模型应用开发",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "了解大模型应用开发",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "任务编排",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "任务编排、上下文管理与记忆机制",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "模型接入",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "模型接入",
+          "verdict": null
+        },
+        {
+          "n": 10,
+          "skill": "部署发布",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "部署发布、监控告警、限流降级",
+          "verdict": null
+        },
+        {
+          "n": 11,
+          "skill": "性能优化",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "性能与成本优化",
+          "verdict": null
+        },
+        {
+          "n": 12,
+          "skill": "AIGC",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "AIGC 工具",
+          "verdict": null
+        },
+        {
+          "n": 13,
+          "skill": "游戏",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "对 AI 与游戏结合有热情",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2082710394723545088",
+      "title": "微信小程序-大模型算法工程师-Coding方向",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Python",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练使用 Python，具备良好的工程能力",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "Transformer",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "深入理解 Transformer 架构及主流大模型训练框架",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "PyTorch",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "深入理解 Transformer 架构及主流大模型训练框架",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "LLM微调",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟悉 SFT 与 RLVR 训练流程",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "RLVR",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟悉 SFT 与 RLVR 训练流程",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "DPO",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "理解奖励信号设计、强化学习算法调优与训练稳定性问题",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "数据标注",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "能进行训练数据合成、清洗、价值评估与 badcase 归因",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "AIGC",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "有大规模代码语料处理经验者优先",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2089960263330742272",
+      "title": "营销与交易产品部-云mall高级Java后端开发工程师",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Java",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "具备扎实的 Java 基础和良好的工程实践",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "Spring Boot",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "Spring Cloud",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "MySQL",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "Redis",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "消息队列",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "数据库设计",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备数据库设计、性能优化及相关项目经验",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "性能优化",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备数据库设计、性能优化及相关项目经验",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "分布式系统",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备分布式系统设计和生产实践能力",
+          "verdict": null
+        },
+        {
+          "n": 10,
+          "skill": "微服务",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备分布式系统设计和生产实践能力",
+          "verdict": null
+        },
+        {
+          "n": 11,
+          "skill": "电商",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "具备电商或其他复杂交易系统的分析与建模能力",
+          "verdict": null
+        },
+        {
+          "n": 12,
+          "skill": "AI开发工具",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "能够熟练使用 AI 开发工具",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2092134938500579328",
+      "title": "搜狗输入法-NLP算法工程师",
+      "items": [
+        {
+          "n": 1,
+          "skill": "后训练",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "具备扎实的后训练、NLP，熟练掌握大模型多阶段训练、推理加速、排序推荐等核心算法原理",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "NLP",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "具备扎实的后训练、NLP",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "大模型多阶段训练",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握大模型多阶段训练、推理加速、排序推荐等核心算法原理",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "推理加速",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握大模型多阶段训练、推理加速、排序推荐等核心算法原理",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "LLM微调",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握微调、量化、蒸馏、Prompt工程、RAG等技术",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "模型量化",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握微调、量化、蒸馏、Prompt工程、RAG等技术",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "模型蒸馏",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握微调、量化、蒸馏、Prompt工程、RAG等技术",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "Prompt工程",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握微调、量化、蒸馏、Prompt工程、RAG等技术",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "RAG",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握微调、量化、蒸馏、Prompt工程、RAG等技术",
+          "verdict": null
+        },
+        {
+          "n": 10,
+          "skill": "大模型推理",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "具备大模型轻量化、低延迟推理优化实战经验",
+          "verdict": null
+        },
+        {
+          "n": 11,
+          "skill": "搜索",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "有输入法、键盘、文本预测、搜索推荐等相关场景算法优化经验者优先",
+          "verdict": null
+        },
+        {
+          "n": 12,
+          "skill": "推荐系统",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "搜索推荐等相关场景算法优化经验者优先",
+          "verdict": null
+        },
+        {
+          "n": 13,
+          "skill": "数据标注",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "包含数据挖掘分析、bad case归因",
+          "verdict": null
+        },
+        {
+          "n": 14,
+          "skill": "A/B实验",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "从需求拆解、实验验证、灰度上线到复盘迭代的全流程",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2094265700456771584",
+      "title": "MaaS模型评测高级工程师",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Python",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "精通Python程序开发，有良好的编码风格及创新优化意识",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "大模型评测",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "有大模型训练或模型评估经验，熟悉大模型评测方法",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "评测集构建",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "包含模型的评测体系建设、评测集构建",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "大模型评测",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "跟踪业界评测基准动态",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "vLLM",
+          "category": "框架",
+          "importance": "加分",
+          "evidence": "对推理框架（如sglang、vllm等）有经验的优先",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "SGLang",
+          "category": "框架",
+          "importance": "加分",
+          "evidence": "对推理框架（如sglang、vllm等）有经验的优先",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "工程化",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "推动评测工程化和无人化",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "Prompt工程",
+          "category": "算法",
+          "importance": "加分",
+          "evidence": "PE（提示工程）实践经验者优先",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2095418906612248576",
+      "title": "微信小程序-大模型算法工程师-智能体方向",
+      "items": [
+        {
+          "n": 1,
+          "skill": "LLM微调",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握 SFT、RL 等模型训练方法，有丰富的模型调优和部署经验",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "DPO",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟练掌握 SFT、RL 等模型训练方法",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "PyTorch",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉常用算法和框架（如 PyTorch、TensorFlow ）",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "TensorFlow",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉常用算法和框架（如 PyTorch、TensorFlow ）",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "工具调用",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "提升大模型在工具调用、对话理解的表现",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "模型评估",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "建立评估体系，多维度评测量化智能体的执行质量",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "部署",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "有丰富的模型调优和部署经验",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2098594908700061696",
+      "title": "云mall-java后端开发工程师-电商",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Java",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "具备扎实的 Java 基础和良好的工程实践",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "Spring Boot",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "Spring Cloud",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "MySQL",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "Redis",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 Spring Boot、Spring Cloud、MySQL、Redis、消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "消息队列",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "消息队列等常用技术",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "数据库设计",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备数据库设计、性能优化及相关项目经验",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "性能优化",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备数据库设计、性能优化及相关项目经验",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "分布式系统",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备分布式系统设计和生产实践能力",
+          "verdict": null
+        },
+        {
+          "n": 10,
+          "skill": "微服务",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备分布式系统设计和生产实践能力",
+          "verdict": null
+        },
+        {
+          "n": 11,
+          "skill": "电商",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "具备电商或其他复杂交易系统的分析与建模能力",
+          "verdict": null
+        },
+        {
+          "n": 12,
+          "skill": "AI开发工具",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "能够熟练使用 AI 开发工具",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "2108081571104997376",
+      "title": "AI 应用开发高级工程师（深圳/北京）",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Python",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练掌握 Python、Go 或 C++ 中至少一种语言",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "Go",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练掌握 Python、Go 或 C++ 中至少一种语言",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "C++",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练掌握 Python、Go 或 C++ 中至少一种语言",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "服务端开发",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备 3 年以上服务端或 AI 应用开发经验",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "AI应用开发",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "具备 3 年以上服务端或 AI 应用开发经验",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "DevOps",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "熟悉 DevOps 领域 AI 产品与工具开发",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "大模型应用落地",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "有大模型应用落地经验者优先",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "架构设计",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "主导技术方案设计与代码评审",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "代码评审",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "主导技术方案设计与代码评审",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "authored_eval_platform",
+      "title": "大模型效果评测-评测平台工程师（自写变体）",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Python",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "精通 Python 编写评测工具与平台",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "大模型评测",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "有大模型评测体系从 0 到 1 的建设经验",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "评测集构建",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "能独立构建评测集与标注规范",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "LLM-as-a-Judge",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟悉 LLM-as-a-Judge 等裁判模型的评测方法",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "指标体系",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "能设计并实现多维度指标体系",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "工程化",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "有评测工程化、平台化落地经验",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "MLflow",
+          "category": "框架",
+          "importance": "加分",
+          "evidence": "有 MLflow 等实验管理平台使用经验者优先",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "A/B实验",
+          "category": "工程",
+          "importance": "加分",
+          "evidence": "熟悉 A/B 实验与效果归因分析者优先",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "authored_java_fintech",
+      "title": "金融科技-Java后端开发工程师（自写变体）",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Java",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练掌握 Java",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "Spring Boot",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟练使用 Spring Boot 与 Spring Cloud 开发微服务",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "MySQL",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 MySQL 索引优化与分库分表",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "Redis",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "了解 Redis 缓存设计与一致性",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "Kafka",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "有 Kafka 消息队列实践",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "分布式系统",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "有高并发分布式系统设计经验",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "微服务",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "熟练使用 Spring Boot 与 Spring Cloud 开发微服务",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "高并发",
+          "category": "工程",
+          "importance": "必须",
+          "evidence": "有高并发分布式系统设计经验",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "金融科技",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "有金融支付或风控相关系统开发经验者优先",
+          "verdict": null
+        },
+        {
+          "n": 10,
+          "skill": "风控",
+          "category": "业务",
+          "importance": "加分",
+          "evidence": "有金融支付或风控相关系统开发经验者优先",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "id": "authored_nlp_classification",
+      "title": "文本智能-NLP算法工程师（自写变体）",
+      "items": [
+        {
+          "n": 1,
+          "skill": "Python",
+          "category": "语言",
+          "importance": "必须",
+          "evidence": "熟练使用 Python 进行算法开发",
+          "verdict": null
+        },
+        {
+          "n": 2,
+          "skill": "PyTorch",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "熟悉 PyTorch 训练与微调流程",
+          "verdict": null
+        },
+        {
+          "n": 3,
+          "skill": "BERT",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "有 BERT、RoBERTa 等预训练模型微调经验",
+          "verdict": null
+        },
+        {
+          "n": 4,
+          "skill": "LLM微调",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "有大模型微调（SFT/LoRA）实践经验",
+          "verdict": null
+        },
+        {
+          "n": 5,
+          "skill": "PEFT/LoRA",
+          "category": "框架",
+          "importance": "必须",
+          "evidence": "有大模型微调（SFT/LoRA）实践经验",
+          "verdict": null
+        },
+        {
+          "n": 6,
+          "skill": "文本分类",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "有文本分类、意图识别等任务的经验",
+          "verdict": null
+        },
+        {
+          "n": 7,
+          "skill": "NLP",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "熟悉 NLP 基础任务与数据处理流程",
+          "verdict": null
+        },
+        {
+          "n": 8,
+          "skill": "数据标注",
+          "category": "业务",
+          "importance": "必须",
+          "evidence": "有语料清洗与标注经验",
+          "verdict": null
+        },
+        {
+          "n": 9,
+          "skill": "模型评估",
+          "category": "算法",
+          "importance": "必须",
+          "evidence": "建立分类任务的 P/R/F1 评估体系",
+          "verdict": null
+        }
+      ]
+    }
+  ]
+}

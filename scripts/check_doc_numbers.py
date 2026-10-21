@@ -25,6 +25,25 @@ README = ROOT / "README.md"
 #:
 #: ★ 这些值**不是抄来的**，而是从 eval_results.json 里算出来后写进 README 的；
 #:   本脚本反过来验证「README 里的值 == 结果文件里的值」。
+def annotated_skill_count() -> Tuple[str, str]:
+    """从 data/jds/*.json 的 annotations.requirements **当场数**出技能标注条数。
+
+    ★ 为什么必须当场数：2026-10-21 实测，README 写「共 130 条人工标注」，
+    而真实条数是 119（必须 108 / 加分 11）—— 数字得从数据里来，不能凭印象写。
+    """
+    jd_dir = ROOT / "data" / "jds"
+    total = must = 0
+    for f in sorted(jd_dir.glob("*.json")):
+        if f.name == "index.json":
+            continue
+        d = json.loads(f.read_text(encoding="utf-8"))
+        for r in d.get("annotations", {}).get("requirements", []):
+            total += 1
+            if r.get("importance") == "必须":
+                must += 1
+    return str(total), f"必须 {must} / 加分 {total - must}"
+
+
 def expected_numbers() -> List[Tuple[str, str]]:
     if not RESULTS.exists():
         return []
@@ -39,6 +58,8 @@ def expected_numbers() -> List[Tuple[str, str]]:
     cost = f"{usage.get('cost_usd', 0.0):.4f}"
 
     return [
+        ("技能标注条数", annotated_skill_count()[0]),
+        ("技能标注构成", annotated_skill_count()[1]),
         ("系统 micro F1", f"{m1['system_llm_plus_fallback']['micro']['f1']:.4f}"),
         ("纯LLM micro F1", f"{m1['llm_only']['micro']['f1']:.4f}"),
         ("基线 micro F1", f"{m1['keyword_baseline']['micro']['f1']:.4f}"),
