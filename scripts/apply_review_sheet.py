@@ -7,13 +7,18 @@
 """
 import json
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 
 P = Path(r"D:\programmer\LLM\projects\job-fit-assistant")
-SHEET = P / "data" / "jds" / "REVIEW_SHEET.md"
-OUT_JSON = P / "data" / "annotations" / "second_pass_review.json"
-OUT_MD = P / "experiments" / "results" / "second_pass_agreement.md"
+# 默认全量表；可传参指定抽样表：python scripts/apply_review_sheet.py data/jds/REVIEW_SHEET_SAMPLE.md
+SHEET = Path(sys.argv[1]) if len(sys.argv) > 1 else P / "data" / "jds" / "REVIEW_SHEET.md"
+if not SHEET.is_absolute():
+    SHEET = P / SHEET
+TAG = "sample" if "SAMPLE" in SHEET.name.upper() else "full"
+OUT_JSON = P / "data" / "annotations" / f"second_pass_review_{TAG}.json"
+OUT_MD = P / "experiments" / "results" / f"second_pass_agreement_{TAG}.md"
 
 text = SHEET.read_text(encoding="utf-8")
 
@@ -87,7 +92,7 @@ print(f"[统计] 自动标注 {total_auto} 条 | 你填了 {filled} 条（未填
 
 OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 OUT_JSON.write_text(json.dumps({
-    "source_sheet": "data/jds/REVIEW_SHEET.md",
+    "source_sheet": str(SHEET.relative_to(P)).replace("\\", "/"),
     "jd_count": len(per_jd),
     "auto_annotations": total_auto,
     "human_filled": filled,
@@ -100,7 +105,7 @@ print(f"[写出] {OUT_JSON.relative_to(P)}")
 
 lines = [
     "# 第二标注者复核 · 一致性报告", "",
-    f"- 来源复核表：`data/jds/REVIEW_SHEET.md`（{len(per_jd)} 份 JD）",
+    f"- 来源复核表：`{SHEET.relative_to(P)}`（{len(per_jd)} 份 JD）",
     f"- 自动标注 **{total_auto}** 条；你填了 **{filled}** 条（未填 {unfilled}）",
     f"- 结论：**同意 {unchanged}**（{agree_pct}）｜**改判 {changed}**｜**删除 {deleted}**｜**你补了 {total_added}** 条",
     "",
