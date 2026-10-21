@@ -271,6 +271,9 @@ export JOBFIT_SIBLINGS_ROOT=/path/to/parent
 ```
 
 **CI 里怎么保证**：`.github/workflows/ci.yml` 用三个 `actions/checkout` 把四个仓库
+
+
+> **Gitee 侧也接了自动门禁**：`.workflow/MasterPipeline.yml`（Gitee Go），**同一批命令、同一套口径**（含同样的排除清单），每次 push 到 master 自动构建；构建记录在仓库页「流水线」里（**需登录可见**，故不挂徽章）。
 checkout 到**同一父目录**（`path:` 参数 + `../` 相对路径），
 然后 `pip install -e ".[dev,mcp,siblings]"` 装上依赖再跑 pytest。
 
