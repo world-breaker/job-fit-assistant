@@ -216,14 +216,26 @@ def run(
     false_greens: List[Dict[str, Any]] = []
     resume_scores: List[Dict[str, Any]] = []
     total_fallback = 0
+    #: 系统**抽取**出来的条数（LLM + 规则兜底的产出）——指标 5 兜底占比的分母。
     total_requirements = 0
+    #: **人工标注真值**的条数（评测集里"标准答案"的条数）——P/R/F1 的分母。
+    #:
+    #: ★ 这两个数是**两个不同口径**，别混：
+    #:   2026-10-22 实测发现，meta 里只有一个 total_annotated_requirements 字段，
+    #:   里面装的却是**抽取**条数（129）——于是仓库里同时存在
+    #:   「meta 说 129 条标注」和「data/jds 实际 119 条标注」两种说法。
+    #:   （数据没被改过：sum(per_jd[].extraction.truth_count) = 119 = 当场点出来的条数。）
+    #:   现在两个数各用各的名字，并让 check_doc_numbers.py 当场校验它们不许打架。
+    total_annotated = 0
 
     for jd in jds:
         jd_text = jd["raw_text"]
+        truth_requirements = jd["annotations"]["requirements"]
         truth_pairs = [
             (r["skill"], r["importance"])
-            for r in jd["annotations"]["requirements"]
+            for r in truth_requirements
         ]
+        total_annotated += len(truth_requirements)
 
         # --- 抽取：三条路径 ---
         # ① 系统（LLM + 规则兜底）：产品实际用的路径
@@ -401,7 +413,10 @@ def run(
             "resume_count": len(resumes),
             "public_real_jd": sum(1 for j in jds if j["source_type"] == "public_real"),
             "authored_variant_jd": sum(1 for j in jds if j["source_type"] == "authored_variant"),
-            "total_annotated_requirements": total_requirements,
+            "total_annotated_requirements": total_annotated,
+            "total_extracted_requirements": total_requirements,
+            # 计分用的真值条数 = 归一化去重后的条数（= tp + fn）
+            "total_scored_truth_requirements": system_total.tp + system_total.fn,
         },
         "metric_1_extraction": {
             "system_llm_plus_fallback": {
@@ -557,6 +572,13 @@ def _write_summary(path: Path, results: Dict[str, Any]) -> None:
         )
     lines += [
         "",
+        f"- 人工标注真值：**{meta['total_annotated_requirements']}** 条"
+        f"（P/R/F1 的分母）；系统抽取：**{meta['total_extracted_requirements']}** 条"
+        f"（指标 5 兜底占比的分母）——两个数口径不同，别混",
+        f"- 归一化去重后实际计分的真值：**{meta['total_scored_truth_requirements']}** 条"
+        f"（{meta['total_annotated_requirements']} 条里有 "
+        f"{meta['total_annotated_requirements'] - meta['total_scored_truth_requirements']} "
+        f"条是同义词/别名，合并成同一条计）",
         f"- micro F1 差值（系统 − 基线）：**{m1['delta_micro_f1']}**",
         f"- 加权 F1 差值（系统 − 基线）：**{m1['delta_weighted_f1']}**",
         f"- micro F1 差值（纯 LLM − 基线）：**{m1['delta_llm_only_micro_f1']}**",
@@ -582,7 +604,7 @@ def _write_summary(path: Path, results: Dict[str, Any]) -> None:
         "",
         "## 指标 5：兜底占比与 LLM 费用",
         "",
-        f"- 兜底条数 {m5['fallback_requirements']} / 总条数 {m5['total_requirements']}"
+        f"- 兜底条数 {m5['fallback_requirements']} / 系统抽取总条数 {m5['total_requirements']}"
         f" → 兜底占比 **{m5['fallback_ratio']}**",
     ]
     usage = m5["llm_usage"]

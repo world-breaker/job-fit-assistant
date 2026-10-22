@@ -10,7 +10,9 @@
     "resume_count": 4,
     "public_real_jd": 9,
     "authored_variant_jd": 3,
-    "total_annotated_requirements": 129
+    "total_annotated_requirements": 119,
+    "total_extracted_requirements": 129,
+    "total_scored_truth_requirements": 110
   },
   "metric_1_extraction": {
     "system_llm_plus_fallback": {
